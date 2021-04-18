@@ -1,0 +1,79 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Įvadas}{1}{section*.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.}Priklausomi tipai}{2}{section.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.}Programavimo kalbos su priklausomais tipais}{2}{subsection.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.1.1.}Idris}{2}{subsubsection.1.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.1.2.}Agda}{2}{subsubsection.1.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.}Agda programavimo kalba}{3}{section.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.}Loginė sistema}{3}{subsection.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.}Sintaksė}{3}{subsection.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.}Numanomi argumentai}{4}{subsection.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.}Duomenų tipai}{4}{subsection.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.}Verifikavimas}{5}{subsection.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.}Go programavimo kalba}{6}{section.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.}Sintaksė}{6}{subsection.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.}Valdymo srauto konstruktai}{6}{subsection.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.}Struktūros}{7}{subsection.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.}Sąsajos}{7}{subsection.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.}Funkcijos}{7}{subsection.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.}Generics in go}{8}{subsection.3.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.}Susiję darbai}{9}{section.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.}Haskell programavimo kalbos transliatoriai}{9}{subsection.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1.}MAlonzo transliatorius}{9}{subsubsection.4.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2.}Utrecht transliatorius}{9}{subsubsection.4.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.}Javascript programavimo kalbos transliatorius}{9}{subsection.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.}Epic programavimo kalbos transliatorius}{10}{subsection.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.}Agda transliavimas į Go}{11}{section.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.}Egzituojančių transliatorių panašumai}{11}{subsection.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.}Agda programavimo kalbos tarpinė reprezentacija}{11}{subsection.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.}Agda Duomenų tipų konvertavimas į Go}{13}{subsection.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.}Agda funkcijų konvertavimas į Go}{13}{subsection.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.1.}Basic konvertavimas}{13}{subsubsection.5.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.2.}builtins}{13}{subsubsection.5.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.}Agda įrašų konvertavimas į Go}{13}{subsection.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.}Įrodymai}{13}{subsection.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7.}Simbolių užkodavimas verčiant į Go}{13}{subsection.5.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Rezultatai}{15}{section*.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Išvados}{16}{section*.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Literatūra}{17}{section*.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{1 priedas. Agda kodas paverstas į kitas kalbas}{18}{section*.9}% 

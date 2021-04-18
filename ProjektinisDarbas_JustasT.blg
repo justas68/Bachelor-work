@@ -1,0 +1,14 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'ProjektinisDarbas_JustasT.blg'
+[39] biber-MSWIN64:315> INFO - === 
+[83] Biber.pm:371> INFO - Reading 'ProjektinisDarbas_JustasT.bcf'
+[200] Biber.pm:889> INFO - Found 15 citekeys in bib section 0
+[219] Biber.pm:4093> INFO - Processing section 0
+[238] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliografija.bib' for section 0
+[242] bibtex.pm:1523> INFO - LaTeX decoding ...
+[260] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliografija.bib'
+[390] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[391] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[391] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'lt-LT'
+[416] bbl.pm:636> INFO - Writing 'ProjektinisDarbas_JustasT.bbl' with encoding 'UTF-8'
+[423] bbl.pm:739> INFO - Output to ProjektinisDarbas_JustasT.bbl
