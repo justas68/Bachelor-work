@@ -134,7 +134,7 @@
         \medskip Atliko: &\; \@status \\
         \medskip\bigskip   &\; \@author \hfill \@signatureplace \\
         \bigskip Darbo vadovas: &\; \@supervisor \hfill  \@signatureplace \\
-        % Recenzentas: &\; \@reviewer \hfill \@signatureplace
+        Recenzentas: &\; \@reviewer \hfill \@signatureplace
         \end{tabular} \par}%
      \end{flushright}
      \vskip 4cm
@@ -148,7 +148,7 @@
         \bigskip   &\; \@author \hfill \@signatureplace \\
         \medskip\bigskip &\; \@secondauthor \hfill \@signatureplace \\
         \bigskip Darbo vadovas: &\; \@supervisor \hfill  \@signatureplace \\
-        % Recenzentas: &\; \@reviewer \hfill \@signatureplace
+        Recenzentas: &\; \@reviewer \hfill \@signatureplace
         \end{tabular} \par}%
      \end{flushright}
      \vskip 3.8cm

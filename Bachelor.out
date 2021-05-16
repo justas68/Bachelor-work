@@ -1,0 +1,49 @@
+\BOOKMARK [1][-]{section*.1}{Santrauka}{}% 1
+\BOOKMARK [1][-]{section*.2}{Summary}{}% 2
+\BOOKMARK [1][-]{section*.4}{Įvadas}{}% 3
+\BOOKMARK [1][-]{section.1}{Priklausomi\040tipai}{}% 4
+\BOOKMARK [2][-]{subsection.1.1}{Programavimo\040kalbos\040su\040priklausomais\040tipais}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Idris}{subsection.1.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Agda}{subsection.1.1}% 7
+\BOOKMARK [1][-]{section.2}{Agda\040programavimo\040kalba}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Loginė sistema}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.2}{Sintaksė}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.3}{Numanomi\040argumentai}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.4}{Duomenų tipai}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.5}{Verifikavimas}{section.2}% 13
+\BOOKMARK [1][-]{section.3}{Go\040programavimo\040kalba}{}% 14
+\BOOKMARK [2][-]{subsection.3.1}{Sintaksė}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.2}{Valdymo\040srauto\040konstruktai}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.3}{Struktūros}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.4}{Sąsajos}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.5}{Funkcijos}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.6}{Bendrinių tipų pasiūlymas}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.7}{Paketų importavimas}{section.3}% 21
+\BOOKMARK [1][-]{section.4}{Susiję darbai}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Haskell\040programavimo\040kalbos\040transliatoriai}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.1}{MAlonzo\040transliatorius}{subsection.4.1}% 24
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Utrecht\040transliatorius}{subsection.4.1}% 25
+\BOOKMARK [2][-]{subsection.4.2}{Javascript\040programavimo\040kalbos\040transliatorius}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.3}{Epic\040programavimo\040kalbos\040transliatorius}{section.4}% 27
+\BOOKMARK [1][-]{section.5}{Agda transliavimas į Go}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Egzituojančių transliatorių panašumai}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.2}{Agda programavimo kalbos tarpinė reprezentacija}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.3}{Agda Duomenų tipų konvertavimas į Go}{section.5}% 31
+\BOOKMARK [2][-]{subsection.5.4}{Agda funkcijų konvertavimas į Go}{section.5}% 32
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Vidinė Go sintaksės reprezentacija}{subsection.5.4}% 33
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Paprastos\040funkcijos\040konvertavimas}{subsection.5.4}% 34
+\BOOKMARK [3][-]{subsubsection.5.4.3}{Standartiniai\040tipai}{subsection.5.4}% 35
+\BOOKMARK [3][-]{subsubsection.5.4.4}{Bendrinių tipų konvertavimas}{subsection.5.4}% 36
+\BOOKMARK [3][-]{subsubsection.5.4.5}{Raktinio žodžio „return“ pridėjimas}{subsection.5.4}% 37
+\BOOKMARK [2][-]{subsection.5.5}{Įrodymai}{section.5}% 38
+\BOOKMARK [2][-]{subsection.5.6}{Visų kintamųjų bei importuotų bibliotekų panaudojimas}{section.5}% 39
+\BOOKMARK [2][-]{subsection.5.7}{Simbolių užkodavimas verčiant į Go}{section.5}% 40
+\BOOKMARK [1][-]{section.6}{Našumo testai}{}% 41
+\BOOKMARK [1][-]{section.7}{Verifikavimas}{}% 42
+\BOOKMARK [1][-]{section*.16}{Ateities\040darbai}{}% 43
+\BOOKMARK [1][-]{section*.17}{Rezultatai}{}% 44
+\BOOKMARK [1][-]{section*.18}{Išvados}{}% 45
+\BOOKMARK [1][-]{section*.19}{1 priedas. Agda kodas paverstas į kitas kalbas}{}% 46
+\BOOKMARK [1][-]{section*.20}{2 priedas. Agda faktorialo funkcija paversta į kitas kalbas}{}% 47
+\BOOKMARK [1][-]{section*.21}{3 priedas. Agda pirminių skaičiaus kieko radimo funkcija paversta į kitas kalbas}{}% 48
+\BOOKMARK [1][-]{section*.22}{4 priedas. Agda rikiavimo funkcija paversta į kitas kalbas}{}% 49
