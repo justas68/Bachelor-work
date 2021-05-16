@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7050 64-bit) (preloaded format=xelatex 2019.6.10)  18 APR 2021 11:04
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7050 64-bit) (preloaded format=xelatex 2019.6.10)  16 MAY 2021 20:30
 entering extended mode
 **c:/Users/justast/Desktop/Projektinis/ProjektinisDarbas_JustasT.tex
 (c:/Users/justast/Desktop/Projektinis/ProjektinisDarbas_JustasT.tex
@@ -1004,6 +1004,27 @@ sty"
 \WF@everypar=\toks39
 Package: wrapfig 2003/01/31  v 3.6
 )
+("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktab
+s.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen174
+\lightrulewidth=\dimen175
+\cmidrulewidth=\dimen176
+\belowrulesep=\dimen177
+\belowbottomsep=\dimen178
+\aboverulesep=\dimen179
+\abovetopsep=\dimen180
+\cmidrulesep=\dimen181
+\cmidrulekern=\dimen182
+\defaultaddspace=\dimen183
+\@cmidla=\count439
+\@cmidlb=\count440
+\@aboverulesep=\dimen184
+\@belowrulesep=\dimen185
+\@thisruleclass=\count441
+\@lastruleclass=\count442
+\@thisrulewidth=\dimen186
+)
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.
 sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
@@ -1011,16 +1032,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTright=\skip126
 \LTpre=\skip127
 \LTpost=\skip128
-\LTchunksize=\count439
-\LTcapwidth=\dimen174
+\LTchunksize=\count443
+\LTcapwidth=\dimen187
 \LT@head=\box56
 \LT@firsthead=\box57
 \LT@foot=\box58
 \LT@lastfoot=\box59
-\LT@cols=\count440
-\LT@rows=\count441
-\c@LT@tables=\count442
-\c@LT@chunks=\count443
+\LT@cols=\count444
+\LT@rows=\count445
+\c@LT@tables=\count446
+\c@LT@chunks=\count447
 \LT@p@ftn=\toks40
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eurosym\eurosym.
@@ -1070,15 +1091,15 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 .sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen175
-\Hy@linkcounter=\count444
-\Hy@pagecounter=\count445
+\@linkdim=\dimen188
+\Hy@linkcounter=\count448
+\Hy@pagecounter=\count449
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.
 def"
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count446
+\Hy@SavedSpaceFactor=\count450
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperre
 f.cfg"
@@ -1091,12 +1112,12 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count447
+\c@Hy@tempcnt=\count451
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen176
-\Fld@menulength=\count448
-\Field@Width=\dimen177
-\Fld@charsize=\dimen178
+\XeTeXLinkMargin=\dimen189
+\Fld@menulength=\count452
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -1106,9 +1127,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count449
-\c@Item=\count450
-\c@Hfootnote=\count451
+\Hy@abspage=\count453
+\c@Item=\count454
+\c@Hfootnote=\count455
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -1126,10 +1147,10 @@ Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box61
-\c@Hy@AnnotLevel=\count452
-\HyField@AnnotCount=\count453
-\Fld@listcount=\count454
-\c@bookmark@seq@number=\count455
+\c@Hy@AnnotLevel=\count456
+\HyField@AnnotCount=\count457
+\Fld@listcount=\count458
+\c@bookmark@seq@number=\count459
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfi
 lecheck.sty"
@@ -1172,8 +1193,8 @@ frcs.sty"
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\
 pgfutil-common.tex"
 \pgfutil@everybye=\toks41
-\pgfutil@tempdima=\dimen179
-\pgfutil@tempdimb=\dimen180
+\pgfutil@tempdima=\dimen192
+\pgfutil@tempdimb=\dimen193
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\
 pgfutil-common-lists.tex"))
@@ -1209,26 +1230,26 @@ pgfkeys.code.tex"
 pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks44
 ))
-\pgf@x=\dimen181
-\pgf@y=\dimen182
-\pgf@xa=\dimen183
-\pgf@ya=\dimen184
-\pgf@xb=\dimen185
-\pgf@yb=\dimen186
-\pgf@xc=\dimen187
-\pgf@yc=\dimen188
-\pgf@xd=\dimen189
-\pgf@yd=\dimen190
+\pgf@x=\dimen194
+\pgf@y=\dimen195
+\pgf@xa=\dimen196
+\pgf@ya=\dimen197
+\pgf@xb=\dimen198
+\pgf@yb=\dimen199
+\pgf@xc=\dimen256
+\pgf@yc=\dimen257
+\pgf@xd=\dimen258
+\pgf@yd=\dimen259
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count456
-\c@pgf@countb=\count457
-\c@pgf@countc=\count458
-\c@pgf@countd=\count459
+\c@pgf@counta=\count460
+\c@pgf@countb=\count461
+\c@pgf@countc=\count462
+\c@pgf@countd=\count463
 \t@pgf@toka=\toks45
 \t@pgf@tokb=\toks46
 \t@pgf@tokc=\toks47
-\pgf@sys@id@count=\count460
+\pgf@sys@id@count=\count464
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlaye
 r\pgf.cfg"
@@ -1248,13 +1269,13 @@ File: pgfsys-dvipdfmx.def 2019/08/03 v3.1.4b (3.1.4b)
 r\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
 )
-\pgfsys@objnum=\count461
+\pgfsys@objnum=\count465
 )))
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlaye
 r\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfsyssoftpath@smallbuffer@items=\count462
-\pgfsyssoftpath@bigbuffer@items=\count463
+\pgfsyssoftpath@smallbuffer@items=\count466
+\pgfsyssoftpath@bigbuffer@items=\count467
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlaye
 r\pgfsysprotocol.code.tex"
@@ -1272,8 +1293,8 @@ thcalc.code.tex"
 thutil.code.tex")
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfma
 thparser.code.tex"
-\pgfmath@dimen=\dimen191
-\pgfmath@count=\count464
+\pgfmath@dimen=\dimen260
+\pgfmath@count=\count468
 \pgfmath@box=\box63
 \pgfmath@toks=\toks48
 \pgfmath@stack@operand=\toks49
@@ -1299,39 +1320,39 @@ thfunctions.misc.code.tex")
 thfunctions.integerarithmetics.code.tex")))
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfma
 thfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count465
+\c@pgfmathroundto@lastzeros=\count469
 ))
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfin
 t.code.tex")
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@picminx=\dimen192
-\pgf@picmaxx=\dimen193
-\pgf@picminy=\dimen194
-\pgf@picmaxy=\dimen195
-\pgf@pathminx=\dimen196
-\pgf@pathmaxx=\dimen197
-\pgf@pathminy=\dimen198
-\pgf@pathmaxy=\dimen199
-\pgf@xx=\dimen256
-\pgf@xy=\dimen257
-\pgf@yx=\dimen258
-\pgf@yy=\dimen259
-\pgf@zx=\dimen260
-\pgf@zy=\dimen261
+\pgf@picminx=\dimen261
+\pgf@picmaxx=\dimen262
+\pgf@picminy=\dimen263
+\pgf@picmaxy=\dimen264
+\pgf@pathminx=\dimen265
+\pgf@pathmaxx=\dimen266
+\pgf@pathminy=\dimen267
+\pgf@pathmaxy=\dimen268
+\pgf@xx=\dimen269
+\pgf@xy=\dimen270
+\pgf@yx=\dimen271
+\pgf@yy=\dimen272
+\pgf@zx=\dimen273
+\pgf@zy=\dimen274
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@path@lastx=\dimen262
-\pgf@path@lasty=\dimen263
+\pgf@path@lastx=\dimen275
+\pgf@path@lasty=\dimen276
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@shorten@end@additional=\dimen264
-\pgf@shorten@start@additional=\dimen265
+\pgf@shorten@end@additional=\dimen277
+\pgf@shorten@start@additional=\dimen278
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorescopes.code.tex"
@@ -1339,19 +1360,19 @@ File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfpic=\box64
 \pgf@hbox=\box65
 \pgf@layerbox@main=\box66
-\pgf@picture@serial@count=\count466
+\pgf@picture@serial@count=\count470
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgflinewidth=\dimen266
+\pgflinewidth=\dimen279
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@pt@x=\dimen267
-\pgf@pt@y=\dimen268
-\pgf@pt@temp=\dimen269
+\pgf@pt@x=\dimen280
+\pgf@pt@y=\dimen281
+\pgf@pt@temp=\dimen282
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorequick.code.tex"
@@ -1368,14 +1389,14 @@ File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfarrowsep=\dimen270
+\pgfarrowsep=\dimen283
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@max=\dimen271
-\pgf@sys@shading@range@num=\count467
-\pgf@shadingcount=\count468
+\pgf@max=\dimen284
+\pgf@sys@shading@range@num=\count471
+\pgf@shadingcount=\count472
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcoreimage.code.tex"
@@ -1414,8 +1435,8 @@ File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibilit
 y\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@nodesepstart=\dimen272
-\pgf@nodesepend=\dimen273
+\pgf@nodesepstart=\dimen285
+\pgf@nodesepend=\dimen286
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibilit
 y\pgfcomp-version-1-18.sty"
@@ -1437,8 +1458,8 @@ Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfma
 th.code.tex")
-\pgffor@iter=\dimen274
-\pgffor@skip=\dimen275
+\pgffor@iter=\dimen287
+\pgffor@skip=\dimen288
 \pgffor@stack=\toks51
 \pgffor@toks=\toks52
 ))
@@ -1449,34 +1470,34 @@ Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\
 pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@plot@mark@count=\count469
-\pgfplotmarksize=\dimen276
+\pgf@plot@mark@count=\count473
+\pgfplotmarksize=\dimen289
 )
-\tikz@lastx=\dimen277
-\tikz@lasty=\dimen278
-\tikz@lastxsaved=\dimen279
-\tikz@lastysaved=\dimen280
-\tikz@lastmovetox=\dimen281
-\tikz@lastmovetoy=\dimen282
-\tikzleveldistance=\dimen283
-\tikzsiblingdistance=\dimen284
+\tikz@lastx=\dimen290
+\tikz@lasty=\dimen291
+\tikz@lastxsaved=\dimen292
+\tikz@lastysaved=\dimen293
+\tikz@lastmovetox=\dimen294
+\tikz@lastmovetoy=\dimen295
+\tikzleveldistance=\dimen296
+\tikzsiblingdistance=\dimen297
 \tikz@figbox=\box69
 \tikz@figbox@bg=\box70
 \tikz@tempbox=\box71
 \tikz@tempbox@bg=\box72
-\tikztreelevel=\count470
-\tikznumberofchildren=\count471
-\tikznumberofcurrentchild=\count472
-\tikz@fig@count=\count473
+\tikztreelevel=\count474
+\tikznumberofchildren=\count475
+\tikznumberofcurrentchild=\count476
+\tikz@fig@count=\count477
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pg
 fmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfmatrixcurrentrow=\count474
-\pgfmatrixcurrentcolumn=\count475
-\pgf@matrix@numberofcolumns=\count476
+\pgfmatrixcurrentrow=\count478
+\pgfmatrixcurrentcolumn=\count479
+\pgf@matrix@numberofcolumns=\count480
 )
-\tikz@expandcount=\count477
+\tikz@expandcount=\count481
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendla
 yer/tikz/libraries\tikzlibrarytopaths.code.tex"
@@ -1500,18 +1521,18 @@ File: pgflibraryfadings.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count478
-\calc@Bcount=\count479
-\calc@Adimen=\dimen285
-\calc@Bdimen=\dimen286
+\calc@Acount=\count482
+\calc@Bcount=\count483
+\calc@Adimen=\dimen298
+\calc@Bdimen=\dimen299
 \calc@Askip=\skip130
 \calc@Bskip=\skip131
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count480
+\calc@Ccount=\count484
 \calc@Cskip=\skip132
 )
-\c@@todonotes@numberoftodonotes=\count481
+\c@@todonotes@numberoftodonotes=\count485
 )
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
 y"
@@ -1547,95 +1568,95 @@ ian.lbx,v 1.0 2015/02/05 20:21:28 niekas stable $
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'date=iso' requires 'seconds=true'.
-(biblatex)                Setting 'seconds=true' on input line 88.
+(biblatex)                Setting 'seconds=true' on input line 89.
 
 
-Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 88.
+Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 89.
 
 (ProjektinisDarbas_JustasT.aux)
 \openout1 = `ProjektinisDarbas_JustasT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 88.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 88.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 88.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 88.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 88.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 88.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 88.
-LaTeX Font Info:    Redeclaring math accent \check on input line 88.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 88.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 88.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 88.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 88.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 89.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 89.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 89.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 89.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 89.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 89.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 89.
+LaTeX Font Info:    Redeclaring math accent \check on input line 89.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 89.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 89.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 89.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 89.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 88.
+(Font)              `operators' in the math version `normal' on input line 89.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/texgyretermes(0)/m/n on input line 8
-8.
+9.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 88.
+(Font)              `operators' in the math version `bold' on input line 89.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/texgyretermes(0)/m/n on input line 
-88.
+89.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/texgyretermes(0)/m/n --> TU/texgyretermes(0)/m/n on 
-input line 88.
+input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/texgyretermes(0)/m/it on input line
- 88.
+ 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/texgyretermes(0)/bx/n on input line
- 88.
+ 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 88.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 88.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 89.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/texgyretermes(0)/m/n --> TU/texgyretermes(0)/bx/n on
- input line 88.
+ input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/texgyretermes(0)/bx/it on input li
-ne 88.
+ne 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 88.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 89.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 88.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 89.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1704,11 +1725,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 317.
 "
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-Package biblatex Info: Reference section=0 on input line 88.
-Package biblatex Info: Reference segment=0 on input line 88.
-\c@lstlisting=\count482
+Package biblatex Info: Reference section=0 on input line 89.
+Package biblatex Info: Reference segment=0 on input line 89.
+\c@lstlisting=\count486
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring OFF on input line 88.
+Package hyperref Info: Link coloring OFF on input line 89.
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref
 .sty"
@@ -1718,11 +1739,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 tlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count483
+\c@section@level=\count487
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
  (ProjektinisDarbas_JustasT.out) (ProjektinisDarbas_JustasT.out)
 \@outlinefile=\write5
 \openout5 = `ProjektinisDarbas_JustasT.out'.
@@ -1732,7 +1753,7 @@ LaTeX Info: Redefining \nameref on input line 88.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 88.
+loading the todonotes package. on input line 89.
 
 
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\se-as
@@ -1741,20 +1762,26 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ) [1
 
-] (ProjektinisDarbas_JustasT.toc)
+] (ProjektinisDarbas_JustasT.toc [1
+
+])
 \tf@toc=\write6
 \openout6 = `ProjektinisDarbas_JustasT.toc'.
 
- [1
-
-] [1
+ [2] [1
 
 ] [2
 
 ] [3
 
-] [4]
-[5]
+]
+[4
+
+] [5
+
+] [6
+
+] [7] [8]
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang
 1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
@@ -1766,107 +1793,153 @@ File: lstlang2.sty 2019/02/27 1.8b listings language file
 ("C:\Users\justast\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang
 3.sty"
 File: lstlang3.sty 2019/02/27 1.8b listings language file
-) [6
+) [9
 
-] [7] [8] [9
+] [10] [11] [12] [13
 
-] [10]
+] [14]
 File: agdaFileCompilation.png Graphic file (type bmp)
 <agdaFileCompilation.png>
- [11
+ [15
 
 ]
 File: HaskellTerm.png Graphic file (type bmp)
 <HaskellTerm.png>
- [12] [13] [14] [15
-
-] [16
-
-]
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
+File: TreelessTerm.png Graphic file (type bmp)
+<TreelessTerm.png>
+ [16] [17]
+File: GoTerm.png Graphic file (type bmp)
+<GoTerm.png>
 
 
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[18] [19] [20] [21] [22] [23] [24] [25
 
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
+] [26] [27
 
+] [28
 
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
+] [29
 
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-[17
-
-] [18
+] [30
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+[31
+
+] [32
+
+] [33
+
+] [34
+
+] [35]
+Overfull \hbox (17.82016pt too wide) in paragraph at lines 896--897
+[][][][][][][][][][][][][][][][][]  
+ []
+
+[36] [37]
+Missing character: There is no ∀ in font [lmmono10-regular]:!
+Missing character: There is no ∀ in font [lmmono10-regular]:!
+Missing character: There is no ∀ in font [lmmono10-regular]:!
+ [38
+
+] [39]
+Overfull \hbox (34.24542pt too wide) in paragraph at lines 1050--1051
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[40] [41]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1067.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1067.
  (ProjektinisDarbas_JustasT.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 430.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
-Package rerunfilecheck Info: File `ProjektinisDarbas_JustasT.out' has not chang
-ed.
-(rerunfilecheck)             Checksum: 8006139040E6499413B8BD966D81215E.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1067.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1067.
+
+
+
+Package rerunfilecheck Warning: File `ProjektinisDarbas_JustasT.out' has change
+d.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ProjektinisDarbas_JustasT.out':
+(rerunfilecheck)             Before: F5E293371B9ED4B711E13F7E85F0C708
+(rerunfilecheck)             After:  144B4F14C0EB7FA46ADEAFE25811ECFF.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'ProjektinisDarbas_JustasT.run.xml'.
 \openout1 = `ProjektinisDarbas_JustasT.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43824 strings out of 427669
- 837056 string characters out of 3144546
- 1369951 words of memory out of 3000000
- 47331 multiletter control sequences out of 15000+200000
- 548141 words of font info for 106 fonts, out of 3000000 for 9000
+ 44005 strings out of 427669
+ 839291 string characters out of 3144546
+ 1384374 words of memory out of 3000000
+ 47502 multiletter control sequences out of 15000+200000
+ 549710 words of font info for 113 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 67i,12n,96p,1005b,6183s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,12n,96p,1127b,6183s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ProjektinisDarbas_JustasT.pdf (20 pages).
+Output written on ProjektinisDarbas_JustasT.pdf (44 pages).
