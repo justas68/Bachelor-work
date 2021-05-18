@@ -107,10 +107,10 @@ This paper includes analysis and implementation of translator from dependently t
 % \sectionnonum{Padėkos asmenims ir organizacijoms}
 
 \sectionnonum{Įvadas}
-Programavimas yra instrukcijų davimas kompiuteriui, kuris jas vykdo nepaisant to ar jos yra prasmingos ar ne. Kadangi žmonija tampa vis labiau priklausoma nuo kompiuterių, kurie atsiranda kiekviename mūsų gyvenimo aspekte, tampa vis svarbiau kuo labiau sumažinti klaidų kiekį programiniame kode. Tai bandoma įgyvendinti įvairiais metodais, tokiais, kaip detalus projektavimas ar testų rašymas. Pastarasis yra vienas dažniausiai naudojamų metodų, tačiau testavimas parodo ne klaidų nebuvimą, o tik tai, kad jos yra \cite{UHC}.
-\par Tipai programavimo kalbose leidžia programuotojui nurodyti numatytą programos elgseną tipų pavidalu. Tipai ne tik padeda programuotojui rašyti teisingą programą, bet taip pat, kompiuteris gali patikrinti ar sukurta programa veikia taip, kaip buvo užrašyta. Paprasčiausias pavyzdys būtų programa, kuri gavusi sąrašą skaičių, prie kiekvieno elemento prideda vienetą, šios programos tikslas yra priimti sąrašą bei sąrašą grąžinti.Tai labai abstraktus apibrėžimas, ką ši programa atlieka, tačiau tai suteikia tam tikrą informaciją apie šios programos veikimą.\par
-Priklausomų tipų sistemos \cite{schematicApproach} leidžia tipams būti priklausomais nuo konkrečių reikšmių. Programavimo kalbos \cite{agda_book,idris}, kuriose yra naudojami priklausomi tipai leidžia sukurti tikslesnius tipus, kurie padeda daugiau klaidų aptikti kompiliavimo metu, vietoje to, kad tos pačios klaidos išliktų nepastebėtos iki programos veikimo pradžios. Su tipais, kurie turi daugiau informacijos mes daugiau žinome apie galimus programos parametrus bei rezultatus. Taip pat, priklausomi tipai programavimo kalbose suteikia galimybę rašyti įrodymus.
-\par Viena iš programavimo kalbų su priklausomais tipais, kuri yra ir šio darbo objektas, yra Agda. Tai funkcinė programavimo kalba, kurios sintaksė yra panaši į plačiau žinomos funkcinės programavimo kalbos Haskell \cite{haskell} sintaksę. Dabartinis Agda įgyvendinimas tipų patikrinimais siekia užtikrinti, kad programos bei įrodymai būtų teisingi. Tuo tarpu Go programavimo kalba \cite{Go} yra greitai kompiliuojama, bet ne taip griežtai tipizuota, taigi atsiranda poreikis tam tikras vietas suprogramuoti su Agda programavimo kalba, verifikuoti jas Agda viduje, bei tada sugeneruoti Go kodo bibliotekas, kurias jau galėtų panaudoti egzistuojantis Go kodas.\par Šio darbo tikslas - suprojektuoti Agda kalbos transliavimo į Go programavimo kalbą taisykles bei realizuoti transliatorių parodantį šių taisyklių veikimą.
+Programavimas yra instrukcijų davimas kompiuteriui, kuris jas vykdo nepaisant to ar jos yra prasmingos ar ne. Kadangi žmonija tampa vis labiau priklausoma nuo kompiuterių, kurie atsiranda kiekviename mūsų gyvenimo aspekte, tampa vis svarbiau kuo labiau sumažinti klaidų kiekį programiniame kode. Tai bandoma įgyvendinti įvairiais metodais, tokiais kaip detalus projektavimas ar testų rašymas. Pastarasis yra vienas dažniausiai naudojamų metodų, tačiau testavimas parodo ne klaidų nebuvimą, o tik tai, kad jos yra \cite{UHC}.
+\par Tipai programavimo kalbose leidžia programuotojui nurodyti numatytą programos elgseną tipų pavidalu. Tipai ne tik padeda programuotojui rašyti teisingą programą, bet taip pat kompiuteris gali patikrinti ar sukurta programa veikia taip, kaip buvo užrašyta. Paprasčiausias tipų panaudojimo pavyzdys būtų programa, kuri gavusi sąrašą skaičių, prie kiekvieno elemento prideda vienetą, šios programos tikslas yra priimti sąrašą bei sąrašą grąžinti. Tai labai abstraktus apibrėžimas, ką ši programa atlieka, tačiau tai suteikia tam tikrą informaciją apie šios programos veikimą.\par
+Priklausomų tipų sistemos \cite{schematicApproach} leidžia tipams būti priklausomais nuo konkrečių reikšmių. Programavimo kalbos \cite{agda_book,idris}, kuriose yra naudojami priklausomi tipai leidžia sukurti tikslesnius tipus, kurie padeda daugiau klaidų aptikti kompiliavimo metu, vietoje to, kad tos pačios klaidos išliktų nepastebėtos iki programos veikimo pradžios. Su tipais, kurie turi daugiau informacijo,s mes daugiau žinome apie galimus programos parametrus bei rezultatus. Taip pat priklausomi tipai programavimo kalbose suteikia galimybę rašyti įrodymus.
+\par Viena iš programavimo kalbų su priklausomais tipais, kuri yra ir šio darbo objektas, yra Agda. Tai funkcinė programavimo kalba, kurios sintaksė yra panaši į plačiau žinomos funkcinės programavimo kalbos Haskell \cite{haskell} sintaksę. Dabartinis Agda įgyvendinimas tipų patikrinimais siekia užtikrinti, kad programos bei įrodymai būtų teisingi. Tuo tarpu Go programavimo kalba \cite{Go} yra greitai kompiliuojama, bet ne taip griežtai tipizuota, taigi atsiranda poreikis tam tikras vietas suprogramuoti su Agda programavimo kalba, verifikuoti jas Agda viduje bei tada sugeneruoti Go kodo bibliotekas, kurias jau galėtų panaudoti egzistuojantis Go kodas.\par Šio darbo tikslas - suprojektuoti Agda kalbos transliavimo į Go programavimo kalbą taisykles bei realizuoti transliatorių parodantį šių taisyklių veikimą.
 \subsectionnonum{Uždaviniai}
 \begin{enumerate}[noitemsep]
 	\item Sudaryti Agda funkcijų transliavimo taisykles
@@ -119,13 +119,13 @@ Priklausomų tipų sistemos \cite{schematicApproach} leidžia tipams būti prikl
 	\item Identifikuoti įgyvendinto transliatoriaus trūkumus 
 \end{enumerate}
 \section{Priklausomi tipai}
-Priklausomi tipai yra tokie tipai, kurie priklauso nuo tipų reikšmių \cite{depentantTypesAtWork}. Pavyzdžiui galime apibrėžti tipą A\textsubscript{n} - sveikasis skaičius, mažesnis už n. Sakome, kad A\textsubscript{n} priklauso nuo skaičiaus n arba A\textsubscript{n} yra tipų, kurie yra indeksuoti pagal skaičių n, šeima. Parametrizuoti tipai, tokie kaip sąrašas susidedantis iš elementų A paprastai nėra vadinami priklausomais tipais, kadangi šios tipų šeimos yra indeksuojamos kitų tipų, o ne tipų reikšmių, kaip yra su priklausomais tipais \cite{depentantTypesAtWork}.
+Priklausomi tipai yra tokie tipai, kurie priklauso nuo reikšmių \cite{depentantTypesAtWork}. Pavyzdžiui galime apibrėžti tipą A\textsubscript{n} - sveikasis skaičius, mažesnis už n. Sakome, kad A\textsubscript{n} priklauso nuo skaičiaus n arba A\textsubscript{n} yra tipų, kurie yra indeksuoti pagal skaičių n, šeima. Parametrizuoti tipai, tokie kaip sąrašas susidedantis iš elementų A paprastai nėra vadinami priklausomais tipais, kadangi šios tipų šeimos yra indeksuojamos kitų tipų, o ne tipų reikšmių, kaip yra su priklausomais tipais \cite{depentantTypesAtWork}.
 \subsection{Programavimo kalbos su priklausomais tipais}
-Šiuo metu yra sukurta nemažai programavimų kalbų, kurios palaiko priklausomus tipus, dalis jų, pavyzdžiui Coq \cite{coq}, buvo sukurtos kaip vadinamasis įrodymų asistentas, kurių pagalba yra rašomi formalūs įrodymai. Kai kurios kalbos, kurios taip pat yra įvardijamos, kaip įrodymų asistentai, pavyzdžiui Agda \cite{agda_book}, gali būti naudojamos ne tik kaip įrodymų asistentai, bet taip pat ir programinės įrangos kūrimui. Egzistuoja ir atvirkščias variantas, kur kalbą yra įvardijama kaip bendrinės paskirties programavimo kalba, tačiau taip pat gali būti naudojama kaip įrodymų asistentas, pavyzdžui Idris \cite{idris}. Šiame poskyryje bus trumpai apžvelgtos kelios iš aukščiau paminėtų programavimo kalbų.
+Šiuo metu yra sukurta nemažai programavimų kalbų, kurios palaiko priklausomus tipus, dalis jų, pavyzdžiui Coq \cite{coq}, buvo sukurtos kaip vadinamasis įrodymų asistentas, kurių pagalba yra rašomi formalūs įrodymai. Kai kurios kalbos, kurios taip pat yra įvardijamos kaip įrodymų asistentai, pavyzdžiui Agda \cite{agda_book}, gali būti naudojamos ne tik kaip įrodymų asistentai, bet taip pat ir programinės įrangos kūrimui. Egzistuoja ir atvirkščias variantas, kur kalbą yra įvardijama kaip bendrinės paskirties programavimo kalba, tačiau taip pat gali būti naudojama kaip įrodymų asistentas, pavyzdžui Idris \cite{idris}. Šiame poskyryje bus trumpai apžvelgtos kelios iš aukščiau paminėtų programavimo kalbų.
 \subsubsection{Idris}
 Idris yra grynai funkcinė bendrosios paskirties programavimo kalba su priklausomais tipais, kuri taip pat gali būtų naudojama kaip įrodymų asistentas. Idris yra pakankamai stipriai įtakotas Haskell \cite{haskell}, taigi turi nemažai panašumų su Haskell, ypač sintaksėje bei tipuose, nors Idris turi labiau pažengusią tipų sistema \cite{idris}. Idris gali būtų kompiliuojama į C arba JavaScript kodą.
 \subsubsection{Agda}
-Agda, yra grynai funkcinė kalba, kuri yra įrodymų asistentas, tačiau gali būti naudojama ir programinės įrangos kūrimui. Pirmoji šios kalbos versija buvo išleista 1999 metais. Dabartinė versija (Agda 2) buvo suprojektuota ir įgyvendinta Gothenburgo universiteto tyrimų inžinieriaus Ulf Norell, tai yra visiškas originalios Agda sistemos pertvarkymas. Kaip ir jos pirmtakai, Agda palaiko indukcinius duomenų tipus, šablonų derinimą (\textit{angl.} pattern matching) bei nutraukimo tikrinimą (\textit{angl.} termination checking) \cite{agda_overview}. Agda nėra universali skaičiavimo požiūriu (ne „Turing complete“). Šiuo metu oficialiai palaikomos 2 kompiliatorių posistemės: MAlonzo skirta transliavimui į Haskell, bei kita posistemė skirta transliavimui į JavaScript \par Kadangi šiame darbe aprašomas Agda kalbos transliavimas, apie šią kalbą bus labiau išsiplėsta kitame skyriuje.
+Agda, yra grynai funkcinė kalba, kuri yra įrodymų asistentas, tačiau gali būti naudojama ir programinės įrangos kūrimui. Pirmoji šios kalbos versija buvo išleista 1999 metais. Dabartinė versija (Agda 2) buvo suprojektuota ir įgyvendinta Gothenburgo universiteto tyrimų inžinieriaus Ulf Norell, tai yra visiškas originalios Agda sistemos pertvarkymas. Kaip ir jos pirmtakai, Agda palaiko indukcinius duomenų tipus, šablonų derinimą (\textit{angl.} pattern matching) bei nutraukimo tikrinimą (\textit{angl.} termination checking) \cite{agda_overview}. Agda nėra universali skaičiavimo požiūriu (ne „Turing complete“). Šiuo metu oficialiai palaikomos 2 kompiliatorių posistemės: MAlonzo skirta transliavimui į Haskell bei kita posistemė skirta transliavimui į JavaScript \par Kadangi šiame darbe aprašomas Agda kalbos transliavimas, apie šią kalbą bus labiau išsiplėsta kitame skyriuje.
 \section{Agda programavimo kalba}
 Kaip ir minėta buvusiame skyriuje, Agda yra grynai funkcinė programavimo kalba, kurios pagrindinė paskirtis yra įrodymų asistentas. Agda turi įprastus programavimo konstruktus kaip duomenų tipai, šablonų derinimas, „let“ išraiška, moduliai bei įrašai. Ši programavimo kalba pasižymi sintakse panašia į Haskell programavimo kalbą.
 \subsection{Loginė sistema}
@@ -135,15 +135,15 @@ Agda pagrindui buvo pasirinkta Zhaohui Luo vieninga priklausomų tipų teorija (
 		\begin{lstlisting}
 (x : A) -> B
 		\end{lstlisting}
-		Kur funkcija priima argumentą x, kurio tipas yra A, bei grąžina rezultatą, kurio tipas yra B, B tipas gali priklausyti nuo argumento x.
+		Kur funkcija priima argumentą x, kurio tipas yra A bei grąžina rezultatą, kurio tipas yra B, B tipas gali priklausyti nuo argumento x.
 	}
 	\item Visatos - tai tokie tipai (žymimi „Set“), kurių elementai yra kiti tipai.
 \end{itemize}
-Agda loginė sistema yra intuicionistinė, arba dar kitaip vadinama konstruktyvioji. Ši logika remiasi konstruktyviuoju įrodymu, joje teisingi yra tik tie dalykai, kuriuos įmanoma sukonstruoti. Dėl šios priežasties šioje logikoje nėra klasikinėje logikoje naudojamo neįtrauktų vidurių dėsnio (\textit{angl.} law of excluded middle) bei dvigubo neiginio teoremos \cite{intuitionistic}.
+Agda loginė sistema yra intuicionistinė, arba dar kitaip vadinama konstruktyvioji. Ši logika remiasi konstruktyviuoju įrodymu, joje teisingi yra tik tie dalykai, kuriuos įmanoma sukonstruoti. Dėl šios priežasties šioje logikoje nėra klasikinėje logikoje naudojamo negalimo trečiojo dėsnio (\textit{angl.} law of excluded middle) bei dvigubo neiginio teoremos \cite{intuitionistic}.
 \subsection{Sintaksė}
 Galime išskirti šiuos Agda programavimo kalbos sintaksinius bruožus:
 \begin{itemize}
-	\item {Agda programavimo kalboje, priešingai negu didelėje dalyje kitų kalbų (kaip Haskell ar Go), konstruktoriai bei identifikatoriai neturi praktiškai jokių leksinių apribojimų, ko pasekoje, identifikatorius galima pavadinti bet kokiais norimais simboliais, pavyzdžiui, toks duomenų tipas yra visiškai legalus:
+	\item {Agda programavimo kalboje, priešingai negu didelėje dalyje kitų kalbų (kaip Haskell ar Go), konstruktoriai bei identifikatoriai neturi praktiškai jokių leksinių apribojimų, ko pasekoje identifikatorius galima pavadinti bet kokiais norimais simboliais, pavyzdžiui, toks duomenų tipas yra visiškai legalus:
 	\begin{lstlisting}
 data _? (araide  : Set) : Set where
 	# : araide  ?
@@ -159,7 +159,7 @@ Numanomų argumentų mechanizmas leidžia išmesti tas programos dalis, kurias g
 	f : (x : A) -> B x
 	g : {x : A} -> B x
 \end{lstlisting}
-Skirtumas tarp šių dviejų funkcijų yra skliaustų tipas, g funkcija (su riestiniais skliaustais) priima numanomas argumentus, t.y. pati Agda bandys išsiaiškinti, kokia reikšmė turi būti toje vietoje.
+Skirtumas tarp šių dviejų funkcijų yra skliaustų tipas, g funkcija (su riestiniais skliaustais) priima numanomas argumentus, t.y. pati Agda bandys išsiaiškinti, kokia reikšmė (TODO) turi būti toje vietoje.
 \subsection{Duomenų tipai}
 Pagrindinis būdas Agda programavimo kalboje apibrėžti duomenų tipus yra per indukcinius bei indukcinius-rekursinius duomenų tipus, kurie yra panašūs į algebrinius duomenų tipus kitose kalbose (pavyzdžiui Haskell). Natūraliuosius  skaičius būtų galima apibrėžti taip:
 \begin{lstlisting}
@@ -183,7 +183,7 @@ Tai reiškia, kad Vec A yra Set šeima, kuri yra indeksuojama pagal natūralųj�
 head : {A : Set}{n : Nat} -> Vec A (suc n) -> A
 head (x :: xs) = x
 \end{lstlisting}
-Šį funkcija priima Vec, kuris yra ne mažesnio ilgio nei 1 (funkcijos aprašyme „suc n“ užtikrina, kad vektoriaus ilgis yra bent 1), bei grąžina paskutinį jo elementą. Kadangi vektorius tikrai yra ne tuščias, nėra privaloma tikrinti to varianto, kai jis neturi elementų. Ši funkcija priima sąrašą, kurį sudaro bet kokio duomenų tipo elementai, atitinkamai galime susikurti įrašo tipą Zmogus, kuris laiko tam tikrą informaciją apie žmogų, bei perrašyti šią funkciją taip, kad ji veiktų tik su zmogaus tipo sąrašu:
+Šį funkcija priima Vec, kuris yra ne mažesnio ilgio nei 1 (funkcijos aprašyme „suc n“ užtikrina, kad vektoriaus ilgis yra bent 1) bei grąžina pirmą jo elementą. Kadangi vektorius tikrai yra ne tuščias, nėra privaloma tikrinti to varianto, kai jis neturi elementų. Ši funkcija priima sąrašą, kurį sudaro bet kokio duomenų tipo elementai, atitinkamai galime susikurti įrašo tipą Zmogus, kuris laiko tam tikrą informaciją apie žmogų bei perrašyti šią funkciją taip, kad ji veiktų tik su zmogaus tipo sąrašu:
 \begin{lstlisting}
 record Zmogus : Set where
 field
@@ -210,14 +210,14 @@ pirmasZmogus (x :: xs) = x
 % 	\item „where“ blokai - tai šiek tiek panašus konstruktas į let, tačiau plačiau panaudojami, kadangi jie palaiko šablonų tikrinimus. Didelis skirtumas yra ir jų traktavimas kompiliavimo metu, let yra dalis termo, taigi šių apibrėžimų neliekia atliekant tipų patikrinimus, tuo tarpu where yra dalis apibrėžimų ir jie yra kompiliuojami galutiniame variante.
 % \end{itemize}
 \subsection{Verifikavimas}
-Agda kalboje (kaip ir daugelyje kitų programavimo kalbų su priklausomais tipais) yra galimybė indukcijos bei šablonų derinimo pagalba rašyti įrodymus, tipų pavidalu galima užrašyti skirtingas teoremas. Pavyzdžiui, galime susikurti duomenų tipą, kuris nurodo lygybę, bei funkciją cong, kuri parodo, kad jeigu a ir b yra lygūs, tai juos perdavus į funkciją f, rezultatas taip pat bus lygus:
+Agda kalboje (kaip ir daugelyje kitų programavimo kalbų su priklausomais tipais) yra galimybė indukcijos bei šablonų derinimo pagalba rašyti įrodymus, tipų pavidalu galima užrašyti skirtingas teoremas. Pavyzdžiui, galime susikurti duomenų tipą, kuris nurodo lygybę bei funkciją cong, kuri parodo, kad jeigu a ir b yra lygūs, tai juos perdavus į funkciją f, rezultatas taip pat bus lygus:
 \begin{lstlisting}
 data _==_ {A : Set}(x : A) : A -> Set where
   refl : x == x
 cong : { A B : Set} -> {a b : A} -> (f : A -> B) -> a == b -> f a == f b
 cong f refl = refl
 	\end{lstlisting}
-Šioje funkcijoje agda tikrina a ir b kintamuosius, tačiau kadangi jie yra pateikti, kaip numanomi argumentai, jų tikrinime nematome.\par Pasinaudodami šiuo duomenų tipu bei funkcija, galime įrodyti natūraliųjų  skaičių asociatyvumą:
+Šioje funkcijoje Agda tikrina a ir b kintamuosius, tačiau kadangi jie yra pateikti, kaip numanomi argumentai, jų tikrinime nematome.\par Pasinaudodami šiuo duomenų tipu bei funkcija, galime įrodyti natūraliųjų  skaičių asociatyvumą:
 \begin{lstlisting}
 associativity : (m n p : Nat) -> ((m + n) + p) == (m + (n + p))
 associativity zero n p = refl
@@ -261,7 +261,7 @@ type zmogus struct {
 	amzius  int
 }
 \end{lstlisting}
-Norėdami sukurti naują sukurtos struktūros tipo kintamąjį tai atliekame užrašydami struktūros vardą ir riestiniuose skliaustuose nurodydami kintamųjų reikšmes, pavyzdžiui: 
+Norėdami sukurti naują sukurtos struktūros tipo kintamąjį užrašome struktūros vardą ir riestiniuose skliaustuose nurodome kintamųjų reikšmes, pavyzdžiui: 
 \begin{lstlisting}[language=GoCust]
 var zmogus1 zmogus = zmogus{"Justas", 23}
 \end{lstlisting}
@@ -276,9 +276,9 @@ type zmogausPaieska interface {
 	paskutinisZmogus(zmones []zmogus) zmogus
 }
 \end{lstlisting}
-Kurdami naują metodą galime nurodyti apsirašytą sąsaja kaip to metodo priimamo argumento tipą, tuo atveju metodo argumentas privalo įgyvendinti tuos metodus kurie yra aprašyti mūsų sukurtoje sąsajoje. Panašiai kaip ir su struktūromis, galima sukurti sąsaja, kuri neturi jokio metodo, tokią sąsają įgyvendina visi tipai, Išnaudodami tokią sąsają galima gauti panašų veikimą į bendrinius sudėtinius tipus, bet apie tie bus išsiplėta vėlesniame skyriuje.
+Kurdami naują metodą galime nurodyti apsirašytą sąsaja kaip to metodo priimamo argumento tipą, tuo atveju metodo argumentas privalo įgyvendinti tuos metodus kurie yra aprašyti mūsų sukurtoje sąsajoje. Panašiai kaip ir su struktūromis, galima sukurti sąsaja, kuri neturi jokio metodo, tokią sąsają įgyvendina visi tipai. Išnaudodami tokią sąsają galima gauti panašų veikimą į bendrinius sudėtinius tipus, bet apie tie bus išsiplėta vėlesniame skyriuje.
 \subsection{Funkcijos}
-Kurdami Go funkcijas privalome nurodyti kokio tipo argumentus ši funkcija priima, bei kokio tipo reikšmę grąžina (jeigu grąžina). Pasinaudodami aukščiau aprašyta struktūra bei Go masyvo tipu galime aprašyti alternatyvias funkcijas aprašytas Agda skyriuje:
+Kurdami Go funkcijas privalome nurodyti kokio tipo argumentus ši funkcija priima bei kokio tipo reikšmę grąžina (jeigu grąžina). Pasinaudodami aukščiau aprašyta struktūra bei Go masyvo tipu galime aprašyti alternatyvias funkcijas aprašytas Agda skyriuje:
 \begin{lstlisting}[language=GoCust]
 func head(elementai interface{}) interface{} {
 	switch nt := elementai.(type) {
@@ -292,9 +292,9 @@ func pirmasZmogus(zmones []zmogus) zmogus {
 	return zmones[0]
 }
 \end{lstlisting}
-Funkcija, kuri priima ir grąžina zmogus tipo struktūrą yra paprasta, tačiau kadangi Go kalboje nėra bendrinių tipų, negalime aprašyti šios funkcijos nenurodydami konkretaus masyvo elementų tipo, nebent jos viduje išrašysime visus tipus, kuriuos ji priima. Taip pat, kadangi funkcija head grąžina abstraktų interface{} tipo rezultatą, jį gavus ir norint iš jo gauti vardą, reiktų tą rezultatą dar paversti atgal į tipą zmogus. \par Galime palyginti šias Agda ir Go funkcijas, kurios atlieka tą patį uždavinį:
+Funkcija, kuri priima ir grąžina zmogus tipo struktūrą yra paprasta, tačiau kadangi Go kalboje nėra bendrinių tipų, negalime aprašyti šios funkcijos nenurodydami konkretaus masyvo elementų tipo, nebent jos viduje išrašysime visus tipus, kuriuos ji priima. Taip pat, kadangi funkcija head grąžina abstraktų interface{} tipo rezultatą, jį gavę ir norėdami iš jo gauti vardą, tą rezultatą turėtume paversti atgal į tipą zmogus. \par Galime palyginti šias Agda ir Go funkcijas, kurios atlieka tą patį uždavinį:
 \begin{itemize}
-	\item Agda kalboje parašytos funkcijos užtikrina, kad funkcija nepriims tokios sąrašo, kurio apdoroti negalės, tuo tarpu Go kalboje aprašytai funkcijai galime perduoti tuščią sąrašą, ko pasekoje gautume vykdymo laiko (\textit{angl.} runtime) klaidą.
+	\item Agda kalboje parašytos funkcijos užtikrina, kad funkcija nepriims tokio sąrašo, kurio apdoroti negalės, tuo tarpu Go kalboje aprašytai funkcijai galime perduoti tuščią sąrašą, ko pasekoje gautume vykdymo laiko (\textit{angl.} runtime) klaidą.
 	\item Agda kalboje naudodami bendrinį tipą priimančia funkciją, jos rezultatas iš karto gaunamas su tuo tipu, kuris buvo paduotas, tuo tarpu Go kalboje jis yra sąsajos tipo, iš kurio jį reikia paversti atgal į norimą tipą.
 \end{itemize}
 \subsection{Bendrinių tipų pasiūlymas}
@@ -313,14 +313,14 @@ func head[T sveikasisSkaicius](sarasas []T) T {
 	return sarasas[len(sarasas)-1]
 }
 	\end{lstlisting}
-	Šiuo atveju metodas „head“ priima sąrašus, kurių elementai yra tik vieno iš aukščiau nurodytų tipų. Atitinkamai galima apibrėžti ir struktūras bei sąsajas, tačiau svarbu užtikrinti, kad kompiliatorius būtų pajėgus surasti tipus, kuriuos reikia įterpti vietoje bendrinio tipo, pavyzdžiui, tokia funkcija nėra teisinga, kadangi kompiliatorius neturi galimybės išsiaiškinti grąžinimo tipo:
+	Šiuo atveju metodas „head“ priima sąrašus, kurių elementai yra tik vieno iš aukščiau nurodytų tipų. Atitinkamai galima apibrėžti ir struktūras bei sąsajas, tačiau svarbu užtikrinti, kad kompiliatorius būtų pajėgus surasti tipus, kuriuos reikia įterpti vietoje bendrinio tipo. Pavyzdžiui, tokia funkcija nėra teisinga, kadangi kompiliatorius neturi galimybės išsiaiškinti grąžinimo tipo:
 	\begin{lstlisting}[language=GoCust] 
 func id[T any](elementas interface{}) T {
 	return elementas.(T)
 }
 \end{lstlisting}
 \subsection{Paketų importavimas}
-Leidžiant Go programinį kodą yra keletą galimybių kaip pasinaudoti kitais paketais. Pirmasis būdas yra juos padedant į Go bazinį aplanką, kuriame yra kitos pagrindinės bibliotekos. Rašydami Go kodą ir norėdami pasinaudoti konkrečia biblioteka turime nurodyti kelią iki tos bibliotekos paketo nuo bazinio Go aplanko. Antrasis būdas, norint importuoti lokalius paketus reikia susikurti modulio failą, tada leisdami programą iš to paties aplanko, kuriame yra aprašytas modulis, galime importuoti kitus paketus nurodydami modulio vardą, po jo nurodant tikslų kelią iki importuojamo paketo.
+Leidžiant Go programinį kodą yra keletą galimybių kaip pasinaudoti kitais paketais. Pirmasis būdas yra juos padedant į Go direktoriją, kuriame yra kitos pagrindinės bibliotekos. Rašydami Go kodą ir norėdami pasinaudoti konkrečia biblioteka turime nurodyti kelią iki tos bibliotekos paketo nuo bazinės Go direktorijos. Antrasis būdas: norint importuoti lokalius paketus reikia susikurti modulio failą, tada leisdami programą iš tos pačios direktorijos, kuriame yra aprašytas modulis, galime importuoti kitus paketus, nurodydami modulio vardą ir tikslų kelią iki importuojamo paketo.
 \section{Susiję darbai}
 Šiuo metu Agda repozitorijoje egzistuoja 2 transliatoriai: 
 \begin{itemize}
@@ -330,12 +330,12 @@ Leidžiant Go programinį kodą yra keletą galimybių kaip pasinaudoti kitais p
 Taip pat egzistuoja ir daugiau transliatorių, kurie nėra pridėti prie oficialios Agda repozitorijos, tai tokie transliatoriai, kaip Utrecht bei Epic \cite{Utrecht,Epic}. Šie ir aukščiau paminėti transliatoriai bus giliau apžvelgti šiame skyriuje.
 \subsection{Haskell programavimo kalbos transliatoriai}
 \subsubsection{MAlonzo transliatorius}
-Numatytasis ir vienas iš 2 agda transliatorių. Kaip jau ir minėta, jis nukreiptas į Haskell programavimo kalbą, iš kurios, naudojant GHC, gaunami vykdomieji failai (\textit{angl.} executable files). Tai labiausiai subrendęs transliatorius, jo sugeneruotos programos veikia greičiau, negu vėliau sukurtų transliatorių \cite{Utrecht,Epic}. Vienas minusas, kurį galima išskirti apie šį transliatorių yra tai, kad norėdama, kad programa praeitų GHC kompiliatorių, transformuodama kodą MAlonzo posistemė turi panaudoti nesaugius priverstinius tipų vertimus (\textit{angl.} unsafeCoersion, tai metodas Haskell kalboje) prieš kiekvieną funkcijos rezultatą bei argumentą, o tai išplečia programos kodą. Taip pat, šie tipų vertimai gali neigiamai įtakoti GHC atliekant į tipus orientuotą optimizaciją.
+Numatytasis ir vienas iš 2 Agda transliatorių. Kaip jau ir minėta, jis nukreiptas į Haskell programavimo kalbą, iš kurios, naudojant GHC, gaunami vykdomieji failai (\textit{angl.} executable files). Tai labiausiai subrendęs transliatorius, jo sugeneruotos programos veikia greičiau, negu vėliau sukurtų transliatorių \cite{Utrecht,Epic}. Vienas minusas, kurį galima išskirti apie šį transliatorių yra tai, kad norėdama, kad programa praeitų GHC kompiliatorių, transformuodama kodą MAlonzo posistemė turi panaudoti nesaugius priverstinius tipų vertimus (\textit{angl.} unsafeCoersion, tai metodas Haskell kalboje) prieš kiekvieną funkcijos rezultatą bei argumentą, o tai išplečia programos kodą. Taip pat šie tipų vertimai gali neigiamai įtakoti GHC atliekant į tipus orientuotą optimizaciją.
 
 \subsubsection{Utrecht transliatorius}
 Skirtingai negu prieš tai minėtas transliatorius, jis konvertuoja į Utrecht Haskell kompiliatoriaus (\textit{angl.} Utrecht Haskell Compiler, UHC) kodą. UHC Core, skirtingai negu GHC Core yra negriežtas, ko pasekoje šiame kompiliatoriuje nėra būtinybės naudoti nesaugius prievartinius tipų vertimus \cite{Utrecht}.\par Kaip eksperimentinis transliatorius buvo pridėtas prie Agda repozitorijos, tačiau su vėlesnėmis versijomis pašalintas dėl labai didelių priklausomybių nuo kitų bibliotekų.
 \subsection{Javascript programavimo kalbos transliatorius}
-Vienas iš 2 agda transliatorių esančių oficialioje repozitorijoje. Agda kodą transliuoja į netipizuotą lambda skaičiavimą (\textit{angl.} untyped lambda calculus) ir tada transformuoja į ECMASript (dar žinomą kaip JavaScript) \cite{html_agda}. Šis transliatorius buvo sukurtas su intencija, kad būtų galima rašyti internetines aplikacijas su Agda programavimo kalba.
+Vienas iš 2 Agda transliatorių esančių oficialioje repozitorijoje. Agda kodą transliuoja į netipizuotą lambda skaičiavimą (\textit{angl.} untyped lambda calculus) ir tada transformuoja į ECMASript (dar žinomą kaip JavaScript) \cite{html_agda}. Šis transliatorius buvo sukurtas su intencija, kad būtų galima rašyti internetines aplikacijas su Agda programavimo kalba.
 \subsection{Epic programavimo kalbos transliatorius}
 Epigram kompiliatorius (\textit{angl.} Epigram Compiler, EPIC) - griežta funkcinė kalba, kuri yra sukurta, tam, kad būtų naudojama kaip posistemė funkcinėms kalboms su priklausomais tipais, norint gauti paleidžiamąjį failą, EPIC yra paverčiama į C programavimo kalbos kodą. Šis transliatorius stipriai įtakojo Utrecht transliatoriaus vystymą \cite{Utrecht}.\par Pagal šiame darbe atliktus metrikų patikrinimus šis transliatorius atsilieka programų veikimo greičiu nuo MAlonzo, tačiau jo sugeneruotas kodas yra mažesnių apimčių. 
 \section{Agda transliavimas į Go}
@@ -348,7 +348,7 @@ Apžvelgus šiuo metu esančius Agda kalbos transliatorius galima įžvelgti kel
 	\item Visi iš šių transliatorių taikosi į funkcinę arba lambda skaičiavimo tipo kalbą (pasak A. Jeffrey ECMAScript tarpinė reprezentacija yra netipizuotas lambda skaičiavimas su įrašais \cite{html_agda})
 \end{itemize}
 \subsection{Agda programavimo kalbos tarpinė reprezentacija}
-Kompiliuojant agda failus jie praeina pro kelis žingsnius, kol pasiekia reprezentaciją, kuri yra naudojama transformavimui į kitas programavimo kalbas:
+Kompiliuojant Agda failus jie praeina pro kelis žingsnius, kol pasiekia reprezentaciją, kuri yra naudojama transformavimui į kitas programavimo kalbas:
 \begin{figure}[H]
 	\centering
 	\includegraphics{agdaFileCompilation.png}
@@ -372,7 +372,7 @@ Pagal šį paveikslėlį matome, kad kompiliuojant Agda failą jis praeina pro t
 		\caption{Haskell duomenų tipas, kuris yra naudojamas vidinės sintaksės atvaizdavimui}
 		\centering
 		\end{figure}
-		\item Bemedė sintaksė (\textit{angl.} Treeless syntax) - tai sintaksė, kuri skirta kompiliatoriaus posistemei (\textit{angl.} compiler backend) naudoti. Tai yra šiek tiek žemesnio lygio stuktūra negu vidinė sintaksė ir joje nėra atliekami tipų patikrinimai. Šioje sintakėse naudojama atvėjo išraiškos (\textit{angl.} case expressions) vietoje atvėjo medžių (\textit{angl.} case trees), kurie naudojami vidinėje sitaksėje. Šios išraiškos yra Agda funkcijos reprezentacija vidinėje bei bemedėje sintaksėje, iš esmės jos yra panašios, pagrindinis skirtumas yra tas, kad atvėjo išraiškos yra A-normalios formos (\textit{angl.} A-normal-form), tai reiškia, kad kiekvienam patikrinimui yra naudojamas tik vienas kintamasis, kai tuo tarpu atvėjo medžiuose gali būti naudojama ne vienas kintamasis. Žemiau galime matyti bemedę sintaksę išreikštą Haskell duomenų tipu „TTerm“:
+		\item Bemedė sintaksė (\textit{angl.} Treeless syntax) - tai sintaksė, kuri skirta kompiliatoriaus posistemei (\textit{angl.} compiler backend) naudoti. Tai yra šiek tiek žemesnio lygio stuktūra negu vidinė sintaksė ir joje nėra atliekami tipų patikrinimai. Šioje sintakėse naudojama atvėjo išraiškos (\textit{angl.} case expressions) vietoje atvėjo medžių (\textit{angl.} case trees), kurie naudojami vidinėje sitaksėje. Šios išraiškos atitinkamai yra Agda funkcijos reprezentacija vidinėje bei bemedėje sintaksėje, iš esmės jos yra panašios, pagrindinis skirtumas yra tas, kad atvėjo išraiškos yra A-normalios formos (\textit{angl.} A-normal-form), tai reiškia, kad kiekvienam patikrinimui yra naudojamas tik vienas kintamasis, kai tuo tarpu atvėjo medžiuose gali būti naudojama ne vienas kintamasis. Žemiau galime matyti bemedę sintaksę išreikštą Haskell duomenų tipu „TTerm“:
 		\begin{figure}[H]
 			\centering
 			\includegraphics[scale=0.75]{TreelessTerm.png}
@@ -394,9 +394,9 @@ lambda a b ->
 		demo.Nat.zero -> b
 		demo.Nat.suc c -> demo.Nat.suc (demo._+_ c b)
 \end{lstlisting}
-Čia matome, kad šioje stuktūroje turime atvėjo išraiškas po vieną kintamąjį, šablonų derinimas vyksta nurodant pilną konstruktoriaus vardą (šiuo atveju „demo“ yra modulio pavadinimas)
+Čia matome, kad šioje stuktūroje atvejo išraiįkose yra po vieną kintamąjį, šablonų derinimas vyksta nurodant pilną konstruktoriaus vardą (šiuo atveju „demo“ yra modulio pavadinimas)
 \subsection{Agda Duomenų tipų konvertavimas į Go}
-Go programavimo kalba neturi nei indukcinių nei bendrinių algebrinių tipų, todėl reikia surasti reprezentaciją Go kalboje, kuri yra panašiausia į Agda indukcinius tipus.\par Vienas iš būdų, kaip galima aprašyti Bendrinius algebrinius tipus (arba indukcinius tipus) yra sąsajos (ang. interface) ir struktūros (ang. struct) pagalba. Tarkime turime sąrašo duomenų tipą Agda kalboje:
+Go programavimo kalba neturi nei indukcinių nei bendrinių algebrinių tipų, todėl reikia surasti reprezentaciją Go kalboje, kuri yra panašiausia į Agda indukcinius tipus.\par Vienas iš būdų, kaip galima aprašyti Bendrinius algebrinius tipus (arba indukcinius tipus) yra sąsajos (\textit{angl.} interface) ir struktūros (\textit{angl.} struct) pagalba. Tarkime turime sąrašo duomenų tipą Agda kalboje:
 \begin{lstlisting}
 data Vec (A : Set) : Nat -> Set where
 	empty : Vec A zero
@@ -467,10 +467,10 @@ Norint transformuoti Agda kodą į kitos kalbos kodą paprastai naudojama tam ti
 		\item GoVar a - kintamasis, kurio reikšmė yra 'a' simbolis, kurio reikšmė yra padidinta parametro „a“ reikšmės dydžiu. Pavyzdžiui jeigu a reikšmė yra 2, tada kintamojo vardas bus 'c'
 		\item GoMethodCall merberId goTerms - Go metodo kvietimas, kur memberId yra metodo vardas, o goTerms yra šio metodo argumentai, kurie savyje laiko GoTerm bei, jeigu reikia, argumento tipą.
 		\item GoSwtich goVar cases - tai yra Go „switch-case“ konstruktas, kur goVar nurodo kintamąjį, kurio reikšmė yra tikrinama, o cases apibrėžia galimus variantus
-		\item GoCreateStruct memberId goTerms - Go struktūros kūrimas, kur memberId yra structūros vardas, o goTerms yra šios structūros elementų reikšmės
+		\item GoCreateStruct memberId goTerms - Go struktūros kūrimas, kur memberId yra struktūros vardas, o goTerms yra šios struktūros elementų reikšmės
 		\item GoIf term1 term2 term3 - Go sąlyginis sakinys, kur term1 yra primityvi if sakinio operacija, kuri gražina loginę reikšmę, pagal kurią yra vykdoma arba term2, arba term3 operacijos.
 		\item PrimOp goTerm1 goTerm2 goTerm3 - Go primityvi operacija, kur goTerm1 apibrėžia primityvios operacijos tipą, o goTerm2 ir goTerm3 yra šios operacijos argumentai
-		\item GoLet goTerm1 goTerm2 - tai naujo kintamojo sukūrimas, goTerm1 apibrėžia to kintamojo reikšmę, o goTerm2 yra tolesnę funkcijos operacija
+		\item GoLet goTerm1 goTerm2 - tai naujo kintamojo sukūrimas, goTerm1 apibrėžia to kintamojo reikšmę, o goTerm2 yra tolesnė funkcijos operacija
 		\item GoLit GoLiteral - tai primityvi reikšmė (šiuo metu palaikoma tik sveikojo skaičiaus reikšmė)
 	\end{itemize}
 \subsubsection{Paprastos funkcijos konvertavimas}
@@ -484,7 +484,7 @@ sum : List Nat -> Nat
 sum empty = zero
 sum (append value tail) = add value (sum tail)
 \end{lstlisting}
-Go programavimo kalboje galėtume sukurti tokius metodus:
+Šios funkcijos į Go programavimo kalbą transformuojamos taip:
 \begin{lstlisting}[language=GoCust]
 func add(a interface{}) func(interface{}) Nat {
 	return func(b interface{}) Nat {
@@ -531,7 +531,7 @@ Agda kalboje pragmų pagalba yra įmanoma nurodyti tam tikrų tipų atitikmenis 
 \begin{lstlisting}
 {-# BUILTIN NATURAL Nat #-}
 \end{lstlisting}
-Transliavimo metu galime nurodyti į kokį konkrečiai tipą reikia konvertuoti labiausiai naudojamus tipus, tokius kaip sveikieji skaičiai, sąrašai ar loginis tipas. Šios pragmos yra skirtos transliavimui į Haskell kalbą, tačiau dalį jų galime panaudoti ir transliavime į Go. \par Konvertuodami natūraliuosius skaičius į Go programavimo kalbą turime kelis variantus:
+Transliavimo metu galime nurodyti į kokį konkretų tipą reikia konvertuoti labiausiai naudojamus tipus, tokius kaip sveikieji skaičiai, sąrašai ar loginis tipas. Šios pragmos yra skirtos transliavimui į Haskell kalbą, tačiau dalį jų galime panaudoti ir transliavime į Go. \par Konvertuodami natūraliuosius skaičius į Go programavimo kalbą turime kelis variantus:
 \begin{itemize}
 	\item Primityvus tipas „int“
 	\item Didelių skaičių biblioteka „math“, kuri turi „bigInt“ tipą
@@ -560,7 +560,7 @@ Primityvus tipas yra greitesnis už šias bibliotekas, tačiau yra stipriai ribo
 \end{table}
 	\end{center}
 	Kaip matome šioje lentelėje, „math“ biblioteka veikia efektyviau su mažesniais skaičiais ir tik su pačiais didžiausiais skaičiais veikia lėčiau negu „gmp“ biblioteka. Tačiau santykinis skirtumas yra didesnis skaičiuojant mažesnes reikšmes, todėl šiame darbe buvo pasirinkta naudoti „math“ bibliotekos „bigInt“ tipą Agda natūraliesiems skaičiams atvaizduoti.
-\par Panaudojus pragmą, su kuria nurodome į kokį tipą transliuojame natūralųjį skaičių, taip pat turime nurodyti metodų atitikmenis, kurie yra skirti dirbti su šiuo primityviu tipu, tai tokios operacijos kaip sudėtis, atimtis, daugyba, dalyba bei lygybė. Šiam tikslui pasiekti buvo sukurtas pagalbinis paketas, kurio metodai yra kviečiami norint atlikti aukščiau paminėtas operacijas. Pavyzdžiui, prie tai aprašytame „Nat“ duomenų tipo aprašyme nurodę, kad tai yra standartinis natūralusis skaičius, gauname tokį prieš tai aprašytą sudėties metodą:
+\par Panaudojus pragmą, su kuria nurodome į kokį tipą transliuojame natūralųjį skaičių, taip pat turime nurodyti metodų atitikmenis, kurie yra skirti dirbti su šiuo primityviu tipu, tai tokios operacijos kaip sudėtis, atimtis, daugyba, dalyba bei lygybė. Šiam tikslui pasiekti buvo sukurtas pagalbinis paketas, kurio metodai yra kviečiami norint atlikti aukščiau paminėtas operacijas. Pavyzdžiui, prieš tai aprašytame „Nat“ duomenų tipo aprašyme nurodę, kad tai yra standartinis natūralusis skaičius, gauname tokį prieš tai aprašytą sudėties metodą:
 \begin{lstlisting}[language=GoCust]
 func add(a interface{}) func(interface{}) *big.Int {
 	return func(b interface{}) *big.Int {
@@ -575,7 +575,7 @@ func add(a interface{}) func(interface{}) *big.Int {
 \end{lstlisting}
 Šiame metode naudojamas mūsų nurodytas Go kalboje egzituojantis tipas, kuris yra tinkamas saugoti natūraliesiems skaičiams.
 \subsubsection{Bendrinių tipų konvertavimas}
-Bendriniai tipai šioje realizacijoje būtini transliuojant funkcijas, kurios vienas iš parametrų yra funkcijos tipo. Pavyzdžiui, jeigu turime funkciją „Map“, kuri pritaiko tam tikrą funkciją kiekvienam sąrašo elementui, vienas būdas ją transformuoti į Go būtų paverčiant visų argumentų tipus į „interface{}“ tipą:
+Bendriniai tipai šioje realizacijoje būtini transliuojant funkcijas, kurių vienas iš parametrų yra funkcijos tipo. Pavyzdžiui, jeigu turime funkciją „Map“, kuri pritaiko tam tikrą funkciją kiekvienam sąrašo elementui, vienas būdas ją transformuoti į Go būtų paversti visų argumentų tipus į „interface{}“ tipą:
 \begin{lstlisting}[language=GoCust]
 func Map(a func(interface{}) interface{}) func(List) List {
 	return func(b List) List {
@@ -593,22 +593,23 @@ Tačiau šiuo atveju „Map“ funkciją galėtume kviesti perduodami tik tuos m
 	\end{lstlisting}
 Taip aprašius funkciją, kompiliuodami Go kodą, sugeneruosime skirtingas „Map“ variacijas kiekvienam kvietimui kuris perduoda funkciją su skirtingu aprašu.
 \subsubsection{Raktinio žodžio „return“ pridėjimas}
-Transliavimo metu yra sudėtinga nustatyti, kurioje vietoje naudoti „return“ raktinį žodį, kadangi tuo metu dar nėra aišku, kokia tiksliai operacija bus naudojama ir ar tai yra paskutinė operacija šakoje. Šiai situacijai išspręsti, po metodo transliavimo yra kviečiama funkcija, kuri pereina per visą medį, tikrindama ar operacija toje šakoje yra paskutinė. Šiam tikslui pasiekti buvo apsibrėžtas sąrašas, kuris nurodo operacijas, kurios grąžina konkrečią reikšmę, tai tokios operacijos kaip metodo kvietimas, struktūros sukūrimas ar tiesiog kintamojo grąžinimas. Jeigu operacija yra paskutinė, tada tos operacijos duomenų tipas yra apvelkamas nauju tipu \mbox{ „ReturnExpression“}, kuris kodo generatoriui nurodo, kad ši operacija pradžioje turi turėti „return“ raktinį žodį. \par Taip pat, kaip matoma Go tarpinės reprezentacijos Haskell duomenų tipe (\ref{img:goterm} pav.), „ReturnExpression“ tipas taip pat saugo grąžinamo tipo informaciją. Tai yra reikalinga norint užtikrinti, kad grąžinamas toks tipas, kurį nurodo metodo aprašymas.
+Transliavimo metu yra sudėtinga nustatyti, kurioje vietoje naudoti „return“ raktinį žodį, kadangi tuo metu dar nėra aišku, kokia tiksliai operacija bus naudojama ir ar tai yra paskutinė operacija šakoje. Šiai situacijai išspręsti, po metodo transliavimo yra kviečiama funkcija, kuri pereina per visą medį, tikrindama ar operacija toje šakoje yra paskutinė. Šiam tikslui pasiekti buvo apsibrėžtas sąrašas, kuris nurodo operacijas, kurios grąžina konkrečią reikšmę. Tai tokios operacijos kaip metodo kvietimas, struktūros sukūrimas ar tiesiog kintamojo grąžinimas. Jeigu operacija yra paskutinė, tada tos operacijos duomenų tipas yra apvelkamas nauju tipu \mbox{ „ReturnExpression“}, kuris kodo generatoriui nurodo, kad ši operacija pradžioje turi turėti „return“ raktinį žodį. \par Taip pat, kaip matoma Go tarpinės reprezentacijos Haskell duomenų tipe (\ref{img:goterm} pav.), „ReturnExpression“ tipas taip pat saugo grąžinamo tipo informaciją. Tai yra reikalinga norint užtikrinti, kad grąžinamas toks tipas, kurį nurodo metodo aprašymas.
 \subsection{Įrodymai}
 Transliuoti įrodymų iš Agda programavimo kalbos į Go nėra reikalinga bei prasminga, tai nėra daroma nei MAlonzo, nei JavaScript transliatoriuose. Verčiant šių funkcijų kodą iš Agda abstrakčios sintaksės į bemedę yra gaunamas rezultatas „TErased“, kuris nusako, kad tokia funkcija gali būti pašalinta.
 \subsection{Visų kintamųjų bei importuotų bibliotekų panaudojimas}
-Kadangi Go neleidžia kompiliuoti kodo, kuriame yra nenaudojamų kintamųjų ar importuotų bibliotekų, transliuodami Agda kodą privalome užtikrinti, kad tokių situacijų neatsitiktų. Kaip jau buvo galima matyti Go kodo pavyzdžiuose, transliuodami Agda koda yra parašome priskyrimą, pavyzdžiui, „\_ = c“. Ši eilutė reiškia, kad kintamasis „c“ yra priskiriamas tuščiam identifikatoriui.\par Transliuodami Agda kodą taip pat galime susidurti su situacija, kai nurodomos bibliotekos, kurios tame pakete nėra naudojamos. Norint išvengti tokių klaidų, transliavimo metu kiekviename pakete pridedame papildomą tipo kintamąjį „type GoImportable int“. Šis kintamasis yra panaudojamas kiekviename pakete, kuris importuoja kitą paketą. Tarkime, turime „package a“ ir „package b“, kur paketas a importuoja paketą „b“, tada paketo „a“ kode pridėsime eilutę „type \_ a.GoImportable“. Ši eilutė užtikrina, kad Go kompiliatorius neišmes klaidos dėl nenaudojamos importuotos bibliotekos.
+Kadangi Go neleidžia kompiliuoti kodo, kuriame yra nenaudojamų kintamųjų ar importuotų bibliotekų, transliuodami Agda kodą privalome užtikrinti, kad tokių situacijų neatsitiktų. Kaip jau buvo galima matyti Go kodo pavyzdžiuose, transliuodami Agda koda parašome priskyrimą, pavyzdžiui, „\_ = c“. Ši eilutė reiškia, kad kintamasis „c“ yra priskiriamas tuščiam identifikatoriui.\par Transliuodami Agda kodą taip pat galime susidurti su situacija, kai nurodomos bibliotekos, kurios tame pakete nėra naudojamos. Norint išvengti tokių klaidų, transliavimo metu kiekviename pakete pridedame papildomą tipo kintamąjį „type GoImportable int“. Šis kintamasis yra panaudojamas kiekviename pakete, kuris importuoja kitą paketą. Tarkime, turime „package a“ ir „package b“, kur paketas a importuoja paketą „b“, tada paketo „a“ kode pridėsime eilutę „type \_ a.GoImportable“. Ši eilutė užtikrina, kad Go kompiliatorius neišmes klaidos dėl nenaudojamos importuotos bibliotekos.
 \subsection{Simbolių užkodavimas verčiant į Go}
-Kaip jau buvo minėta ankstesniame skyriuje, Agda leidžia praktiškai bet kokius vardus funkcijoms, bei duomenų tipams, kai tuo tarpu Go kalboje jie yra žymiai labiau ribojami. MAlonzo kompiliatoriuje į Haskell tai apeinama duomenų struktūroms, konstruktoriams, bei funkcijoms įvardinti naudojant naujai sukurtus vardus, pavyzdžiui:
+Kaip jau buvo minėta ankstesniame skyriuje, Agda leidžia praktiškai bet kokius vardus funkcijoms bei duomenų tipams, kai tuo tarpu Go kalboje jie yra žymiai labiau ribojami. MAlonzo kompiliatoriuje į Haskell tai apeinama duomenų struktūroms, konstruktoriams bei funkcijoms įvardinti naudojant naujai sukurtus vardus, pavyzdžiui:
 \begin{lstlisting}
 name2 = "demo.Nat"
 d2 = ()
 data T2 = C4 | C6 T2
 \end{lstlisting}
-kur d2 yra funkcijos vardas, T2 yra duomenų tipo vardas, o name2 yra eilutės tipo kintamasis, kuris saugo funkcijos vardą Agda kode. Toks metodas yra tinkamas, kai yra generuojamas vykdomasis failas, bet norint sugeneruoti kodą, kuris yra kviečiamas iš Go kodo toks sprendimas yra netinkamas. \par Paprasčiausias sprendimas šiam klausimui būtų apriboti simbolius, kuriuos galima naudoti rašant Agda kodą. Tačiau tuo atveju norėdami transliuoti Agda standartinės bibliotekos kodą susiduriame su problemomis, kadangi nėra galimybių perrašyti visą standartinės bibliotekos kodą pakeičiant visus Go kalboje nepriimamus simbolius. Šiai problemai apeiti galime sukurti užkodavimą, kuris transliavimo metu patikrina ar kiekvienas transliuojamas simbolis yra apatinis brūkšnys arba „unicode“ raidės simbolis. Jeigu ši sąlygą yra nepatenkinama, tada simbolį verčiame į jo dešimtainio skaičiaus reprezentaciją, prie jos pridedami raidę „u“, pavyzdžiui, versdami dolerio ženklą „\$“, gauname kodą „u36“.
+kur d2 yra funkcijos vardas, T2 yra duomenų tipo vardas, o name2 yra eilutės tipo kintamasis, kuris saugo Agda kodo funkcijos vardą. Toks metodas yra tinkamas, kai yra generuojamas vykdomasis failas, bet norint sugeneruoti kodą, kuris yra kviečiamas iš Go kodo toks sprendimas yra netinkamas. \par Paprasčiausias sprendimas šiam klausimui būtų apriboti simbolius, kuriuos galima naudoti rašant Agda kodą. Tačiau tuo atveju norėdami transliuoti Agda standartinės bibliotekos kodą susiduriame su problemomis, kadangi nėra galimybių perrašyti visą standartinės bibliotekos kodą pakeičiant visus Go kalboje nepriimamus simbolius. Šiai problemai apeiti galime sukurti užkodavimą, kuris transliavimo metu patikrina ar kiekvienas transliuojamas simbolis yra apatinis brūkšnys arba „unicode“ raidės simbolis. Jeigu ši sąlygą yra nepatenkinama, tada simbolį verčiame į jo dešimtainio skaičiaus reprezentaciją, prie jos pridedami raidę „u“, pavyzdžiui, versdami dolerio ženklą „\$“, gauname kodą „u36“.
 \section{Našumo testai}
-Šiame skyriuje aprašomi 3 skirtingų funkcijų veikimo greičio bei atminties naudojimo palyginimai. Lyginimas atliekamas tarp Agda kodo sugeneruoto į Go bei kodo sugeneruoto į Haskell naudojantis Malonnzo kompiliatoriumi. Visi palyginimai buvo leidžiami kompiuteryje su  „AMD Ryzen 7 3750H“ procesoriumi, bei 16GB atminties. Go kalboje matavimai atlikti naudojantis baziniu „testing“ paketu, o Haskell kalboje „criterion“ bei „weigth“ bibliotekomis. 
-\par Pirmasis testas atliktas su faktorialo funkcija (žr. \ref{sec:priedas2} priedas): 
+Šiame skyriuje aprašomi 3 skirtingų funkcijų veikimo greičio bei atminties naudojimo palyginimai. Lyginimas atliekamas tarp Agda kodo transliuoto į Go bei kodo transliuoto į Haskell naudojantis MAlonzo kompiliatoriumi. Visi palyginimai buvo leidžiami kompiuteryje su  „AMD Ryzen 7 3750H“ procesoriumi bei 16GB atminties. Go kalboje matavimai atlikti naudojantis baziniu „testing“ paketu, o Haskell kalboje „criterion“ bei „weigth“ bibliotekomis. 
+\subsection{Faktorialo funkcija}
+Pirmasis testas atliktas su faktorialo funkcija (žr. \ref{sec:priedas2} priedas): 
 \begin{center}
 	\centering
 	\begin{table}[H]
@@ -633,7 +634,8 @@ kur d2 yra funkcijos vardas, T2 yra duomenų tipo vardas, o name2 yra eilutės t
 \end{table}
 \end{center}
 	Kaip matoma šioje lentelėje, Haskell veikia greičiau su visais n, tačiau Go kodas naudoja mažiau atminties pasiekus n = 100000. 
-	\par Antrasis testas skaičiuoja pirminių skaičių kiekį iki duoto natūralausiaus skaičiaus n (žr. \ref{sec:priedas3} priedas). Kaip matoma lentelėje žemiau, Ši funkcija paversta į Go, palyginus su Haskell, veikia labai lėtai, su n reikšme 1000, nėra gaunamas rezultatas kadangi pritrūkstama atminties.
+	\subsection{Pirminių skaičių kiekio radimo funkcija}
+	 Antrasis testas skaičiuoja pirminių skaičių kiekį iki duoto natūraliojo skaičiaus n (žr. \ref{sec:priedas3} priedas). Kaip matoma lentelėje žemiau, ši funkcija paversta į Go, palyginus su Haskell, veikia labai lėtai, su n reikšme 1000, nėra gaunamas rezultatas kadangi pritrūkstama atminties.
 	\begin{center}
 		\centering
 		\begin{table}[h]
@@ -679,7 +681,8 @@ kur d2 yra funkcijos vardas, T2 yra duomenų tipo vardas, o name2 yra eilutės t
 		\end{table}
 			\end{center}
 
-			\par Trečiasis testas atliktas leidžiant funkciją, kuri burburo rikiavimo metodu surikiuoja duotą sąrašą (žr. \ref{sec:priedas4} priedas). Visų šio sąrašo elementų dydis yra iki 10.
+\subsection{Burbulo rikiavimo funkcija}
+Trečiasis testas atliktas leidžiant funkciją, kuri burbulo rikiavimo metodu surikiuoja duotą sąrašą (žr. \ref{sec:priedas4} priedas). Visų šio sąrašo elementų reikšmės yra iki 10.
 			\begin{center}
 				\centering
 				\begin{table}[h]
@@ -698,11 +701,18 @@ kur d2 yra funkcijos vardas, T2 yra duomenų tipo vardas, o name2 yra eilutės t
 				\centering
 			\end{table}
 				\end{center}
-Galime matyti, kad rezultatai santykinai yra prastesni negu prieš tai leistų funkcijų. Buvo pastebėta, kad didelė dalis laiko, iki 30\%, yra išnaudojama atliekant šiukšlių surinkimą (\textit{angl.} garbage collection). Taip pat, veikimo greitis numatomai turėtų žymiai pagreitėti implementavus išorinę funkcijos sąsaja bei šį vektoriaus tipą pavertus į Go sąrašo tipą.
-\section{Verifikavimas}
-
+Galime matyti, kad rezultatai santykinai yra prastesni negu prieš tai leistų funkcijų. Buvo pastebėta, kad didelė dalis laiko, iki 30\%, yra išnaudojama atliekant šiukšlių surinkimą (\textit{angl.} garbage collection). Taip pat veikimo greitis numatomai turėtų žymiai pagreitėti realizavus išorinę funkcijos sąsaja bei šį vektoriaus tipą pavertus į Go sąrašo tipą.
+\section{Verifikavimas bei trūkumai}
+\subsection{Verifikavimas}
+Transliatorių verifikavimas yra pakankamai sena problema, viename iš darbu, kuriame ji yra nagrinėjama \cite{compilerCorrectness}, yra teigiama, kad transliatorius turi išsaugoti semantiką. Šiame darbe tai parodomo testų pavidalų, Agda funkcijos transformavimo funkciją perkėlus iš Haskell į Agda \footnote{https://github.com/justas68/AgdaTransformations/blob/master/main.agda} bei parašę funkciją priešingą jai, galime patikrinti, kad konkrečias funkcijas pavertę į vidinę Go reprezentaciją, neparandame esminės informacijos bei galime iš Go vidinės reprezentacijos paversti atgal į Agda bemedę sintaksę.
+\subsection{Trūkumai}
+\begin{itemize}
+	\item Šiuo metu palaikomas „switch“ sakinys tik su duomenų tipais, tačiau ne su primityviomis reikšmėmis
+	\item 
+\end{itemize}
 \sectionnonum{Ateities darbai}
 \begin{enumerate}[noitemsep]
+	\item Ištaisyti ankstesniame skyriuje aprašytus trūkumus
   \item Išorinė funkcijos sąsaja. Šiuo metu nėra galimybės tiesiogiai susieti Agda funkcijų bei duomenų tipų su konkrečiais Go kalbos elementais. Tam tikslui pasiekti yra reikalinga išorinė funkcijos sąsaja, su kuria pragmu pagalba būtų galima nurodyti kokia Go funkcija ar struktūra atitinka pasirinktas Agda funkcijas ar duomenų tipus.
   \item Bendriniai duomenų tipai. Šiuo metu transformuojami Agda duomenų tipai yra paverčiami į tokius duomenų tipas, kurių laukai yra tuščios sąsajos tipo, tai reiškia, kad metodai dirbantys su jais, savo aprašyme negali naudoti bendrinių tipų. Tai iš dalies galėtų būti sprendžiama išorinės funkcijos sąsajos pagalba tam tikrus tipus verčiant į jau egzistuojančias Go struktūras, tačiau norint naudotis visais Agda privalumais yra reikalingi bendriniai duomenų tipai  aprašyti Go kalboje.
   \item Įgyvendinti įrašo tipų transliavimą. 

@@ -84,7 +84,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.}Našumo testai}{22}{section.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.}Verifikavimas}{24}{section.7}% 
+\contentsline {subsection}{\numberline {6.1.}Faktorialo funkcija}{22}{subsection.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.}Pirminių skaičių kiekio radimo funkcija}{22}{subsection.6.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.}Burbulo rikiavimo funkcija}{23}{subsection.6.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.}Verifikavimas bei trūkumai}{24}{section.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.}Verifikavimas}{24}{subsection.7.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.}Trūkumai}{24}{subsection.7.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Ateities darbai}{25}{section*.16}% 
 \defcounter {refsection}{0}\relax 
