@@ -1,0 +1,482 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{depentantTypesAtWork}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f9fb60ac359783caeeaf682722e4615f}{%
+           family={Bove},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df4fb38949e935a505b36d431a3d1baa}{%
+           family={Dybjer},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b2d258164f88e109462be918b2686fc}
+      \strng{fullhash}{8b2d258164f88e109462be918b2686fc}
+      \strng{bibnamehash}{8b2d258164f88e109462be918b2686fc}
+      \strng{authorbibnamehash}{8b2d258164f88e109462be918b2686fc}
+      \strng{authornamehash}{8b2d258164f88e109462be918b2686fc}
+      \strng{authorfullhash}{8b2d258164f88e109462be918b2686fc}
+      \field{labelalpha}{BD08}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{LerNet ALFA Summer School}
+      \field{title}{Dependent Types at Work}
+      \field{year}{2008}
+    \endentry
+    \entry{agda_overview}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=f9fb60ac359783caeeaf682722e4615f}{%
+           family={Bove},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df4fb38949e935a505b36d431a3d1baa}{%
+           family={Dybjer},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7a1d9526749781f95d1f4cbee5cff02c}{%
+           family={Norell},
+           familyi={N\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ad7c1269c122fbcb06a475f0a415f6e}
+      \strng{fullhash}{0ad7c1269c122fbcb06a475f0a415f6e}
+      \strng{bibnamehash}{0ad7c1269c122fbcb06a475f0a415f6e}
+      \strng{authorbibnamehash}{0ad7c1269c122fbcb06a475f0a415f6e}
+      \strng{authornamehash}{0ad7c1269c122fbcb06a475f0a415f6e}
+      \strng{authorfullhash}{0ad7c1269c122fbcb06a475f0a415f6e}
+      \field{labelalpha}{BDN09}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Brief Overview of Agda – A Functional Language with Dependent Types}
+      \field{year}{2009}
+    \endentry
+    \entry{intuitionistic}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=df4fb38949e935a505b36d431a3d1baa}{%
+           family={Dybjer},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0cf9729d45ca1c1c7fbb6a2dc9449028}{%
+           family={Palmgren},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Metaphysics Research Lab, Stanford University}%
+      }
+      \strng{namehash}{5abd3af95d03872d99b888303f8ad576}
+      \strng{fullhash}{5abd3af95d03872d99b888303f8ad576}
+      \strng{bibnamehash}{5abd3af95d03872d99b888303f8ad576}
+      \strng{authorbibnamehash}{5abd3af95d03872d99b888303f8ad576}
+      \strng{authornamehash}{5abd3af95d03872d99b888303f8ad576}
+      \strng{authorfullhash}{5abd3af95d03872d99b888303f8ad576}
+      \field{labelalpha}{DP20}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://plato.stanford.edu/archives/sum2020/entries/type-theory-intuitionistic/}}
+      \field{title}{Intuitionistic Type Theory}
+      \field{year}{2020}
+    \endentry
+    \entry{Epic}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=dcefd18effbd2a8891332fded30e1430}{%
+           family={Gustafsson},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=66956d17043b1b34477bb3d3024ddba4}{%
+           family={Fredriksson},
+           familyi={F\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{38de5468f8c106d23ed8aeb9f7ebb073}
+      \strng{fullhash}{38de5468f8c106d23ed8aeb9f7ebb073}
+      \strng{bibnamehash}{38de5468f8c106d23ed8aeb9f7ebb073}
+      \strng{authorbibnamehash}{38de5468f8c106d23ed8aeb9f7ebb073}
+      \strng{authornamehash}{38de5468f8c106d23ed8aeb9f7ebb073}
+      \strng{authorfullhash}{38de5468f8c106d23ed8aeb9f7ebb073}
+      \field{labelalpha}{GF11}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A totally Epic backend for Agda}
+      \field{year}{2011}
+    \endentry
+    \entry{UHC}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=d919b0d4a42dae9c61f2311e58f8fb08}{%
+           family={Hausmann},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d919b0d4a42dae9c61f2311e58f8fb08}
+      \strng{fullhash}{d919b0d4a42dae9c61f2311e58f8fb08}
+      \strng{bibnamehash}{d919b0d4a42dae9c61f2311e58f8fb08}
+      \strng{authorbibnamehash}{d919b0d4a42dae9c61f2311e58f8fb08}
+      \strng{authornamehash}{d919b0d4a42dae9c61f2311e58f8fb08}
+      \strng{authorfullhash}{d919b0d4a42dae9c61f2311e58f8fb08}
+      \field{labelalpha}{Hau15}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Agda UHC Backend}
+      \field{year}{2015}
+    \endentry
+    \entry{Utrecht}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d919b0d4a42dae9c61f2311e58f8fb08}{%
+           family={Hausmann},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bf2b48155b56ead07fbd7ecdffd0b8b5}{%
+           family={Dijkstra},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b8c14b90a1f41eb30f042bbe52309733}{%
+           family={Swierstra},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{75ed990093313b22edbf1122147490cc}
+      \strng{fullhash}{75ed990093313b22edbf1122147490cc}
+      \strng{bibnamehash}{75ed990093313b22edbf1122147490cc}
+      \strng{authorbibnamehash}{75ed990093313b22edbf1122147490cc}
+      \strng{authornamehash}{75ed990093313b22edbf1122147490cc}
+      \strng{authorfullhash}{75ed990093313b22edbf1122147490cc}
+      \field{labelalpha}{HDS15}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Utrecht Agda Compiler}
+      \field{year}{2015}
+    \endentry
+    \entry{coq}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=941025810bfd309d15e5623a4cc70dc2}{%
+           family={Huet},
+           familyi={H\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bcc57bb62ca164d9fe6a988bb9bf3ec6}{%
+           family={Kahn},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e6397154575fc84ede36e1c46be584ad}{%
+           family={Mohring},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{027628f5d0f339929be1df41e19a1ff4}
+      \strng{fullhash}{027628f5d0f339929be1df41e19a1ff4}
+      \strng{bibnamehash}{027628f5d0f339929be1df41e19a1ff4}
+      \strng{authorbibnamehash}{027628f5d0f339929be1df41e19a1ff4}
+      \strng{authornamehash}{027628f5d0f339929be1df41e19a1ff4}
+      \strng{authorfullhash}{027628f5d0f339929be1df41e19a1ff4}
+      \field{labelalpha}{HKM13}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Coq Proof Assistant A Tutorial}
+      \field{year}{2013}
+    \endentry
+    \entry{html_agda}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=8dcd8e39f7286663b32fb576657b04ab}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dcd8e39f7286663b32fb576657b04ab}
+      \strng{fullhash}{8dcd8e39f7286663b32fb576657b04ab}
+      \strng{bibnamehash}{8dcd8e39f7286663b32fb576657b04ab}
+      \strng{authorbibnamehash}{8dcd8e39f7286663b32fb576657b04ab}
+      \strng{authornamehash}{8dcd8e39f7286663b32fb576657b04ab}
+      \strng{authorfullhash}{8dcd8e39f7286663b32fb576657b04ab}
+      \field{labelalpha}{Jef13}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{PADL}
+      \field{title}{Dependently Typed Web Client Applications - FRP in Agda in HTML5}
+      \field{year}{2013}
+    \endentry
+    \entry{haskell}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d108860aab4513efa73092faf1dfd827}{%
+           family={Lipovača},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d108860aab4513efa73092faf1dfd827}
+      \strng{fullhash}{d108860aab4513efa73092faf1dfd827}
+      \strng{bibnamehash}{d108860aab4513efa73092faf1dfd827}
+      \strng{authorbibnamehash}{d108860aab4513efa73092faf1dfd827}
+      \strng{authornamehash}{d108860aab4513efa73092faf1dfd827}
+      \strng{authorfullhash}{d108860aab4513efa73092faf1dfd827}
+      \field{labelalpha}{Lip11}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learn You a Haskell for Great Good!}
+      \field{year}{2011}
+    \endentry
+    \entry{AgdaWeb}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=7a1d9526749781f95d1f4cbee5cff02c}{%
+           family={Norell},
+           familyi={N\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{hash=2562000b6ae6a23441b31d4f2e4feae2}{%
+           family={Abel},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0453623fdb81d6df8f3d73fb47e983a1}{%
+           family={Danielsson},
+           familyi={D\bibinitperiod},
+           given={N.\bibnamedelimi A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a0cac8e91832d23a77dbf58fec671c23}{%
+           family={Takeyama},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8000048cc2f93dc56823f52f733c84cd}{%
+           family={Coquand},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c352b9d69358dcc24df13531cf74ed1}
+      \strng{fullhash}{1c352b9d69358dcc24df13531cf74ed1}
+      \strng{bibnamehash}{1c352b9d69358dcc24df13531cf74ed1}
+      \strng{authorbibnamehash}{1c352b9d69358dcc24df13531cf74ed1}
+      \strng{authornamehash}{1c352b9d69358dcc24df13531cf74ed1}
+      \strng{authorfullhash}{1c352b9d69358dcc24df13531cf74ed1}
+      \field{labelalpha}{NAD\textsuperscript {+}}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Agda readthedocs puslapis}
+      \verb{urlraw}
+      \verb https://agda.readthedocs.io/en/v2.6.1.1/overview.html
+      \endverb
+      \verb{url}
+      \verb https://agda.readthedocs.io/en/v2.6.1.1/overview.html
+      \endverb
+    \endentry
+    \entry{agdaInitial}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=7a1d9526749781f95d1f4cbee5cff02c}{%
+           family={Norell},
+           familyi={N\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a1d9526749781f95d1f4cbee5cff02c}
+      \strng{fullhash}{7a1d9526749781f95d1f4cbee5cff02c}
+      \strng{bibnamehash}{7a1d9526749781f95d1f4cbee5cff02c}
+      \strng{authorbibnamehash}{7a1d9526749781f95d1f4cbee5cff02c}
+      \strng{authornamehash}{7a1d9526749781f95d1f4cbee5cff02c}
+      \strng{authorfullhash}{7a1d9526749781f95d1f4cbee5cff02c}
+      \field{labelalpha}{Nor07}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Towards a practical programming language based on dependent type theory}
+      \field{year}{2007}
+    \endentry
+    \entry{compilerCorrectness}{article}{}
+      \name{author}{2}{}{%
+        {{hash=be3f8623b621505dcf8292092a817782}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=412516eb32642e250369cbd75713ecd4}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{d70c967923f6aa1a9f07f16ec96d6348}
+      \strng{fullhash}{d70c967923f6aa1a9f07f16ec96d6348}
+      \strng{bibnamehash}{d70c967923f6aa1a9f07f16ec96d6348}
+      \strng{authorbibnamehash}{d70c967923f6aa1a9f07f16ec96d6348}
+      \strng{authornamehash}{d70c967923f6aa1a9f07f16ec96d6348}
+      \strng{authorfullhash}{d70c967923f6aa1a9f07f16ec96d6348}
+      \field{labelalpha}{PA19}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proc. ACM Program. Lang.}
+      \field{title}{The next 700 Compiler Correctness Theorems (Functional Pearl)}
+      \field{year}{2019}
+    \endentry
+    \entry{idris}{book}{}
+      \name{author}{1}{}{%
+        {{hash=476495323f46189dc5197ea3a0b6d6ea}{%
+           family={Sitnikovski},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Amazon/KDP}%
+      }
+      \strng{namehash}{476495323f46189dc5197ea3a0b6d6ea}
+      \strng{fullhash}{476495323f46189dc5197ea3a0b6d6ea}
+      \strng{bibnamehash}{476495323f46189dc5197ea3a0b6d6ea}
+      \strng{authorbibnamehash}{476495323f46189dc5197ea3a0b6d6ea}
+      \strng{authornamehash}{476495323f46189dc5197ea3a0b6d6ea}
+      \strng{authorfullhash}{476495323f46189dc5197ea3a0b6d6ea}
+      \field{labelalpha}{Sit18}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gentle Introduction to Dependent Types with Idris}
+      \field{year}{2018}
+    \endentry
+    \entry{agda_book}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b781679c65f00147881b0ea5d80987f4}{%
+           family={Stump},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{3}{%
+        {Association for Computing Machinery}%
+        {Morgan}%
+        {Claypool}%
+      }
+      \strng{namehash}{b781679c65f00147881b0ea5d80987f4}
+      \strng{fullhash}{b781679c65f00147881b0ea5d80987f4}
+      \strng{bibnamehash}{b781679c65f00147881b0ea5d80987f4}
+      \strng{authorbibnamehash}{b781679c65f00147881b0ea5d80987f4}
+      \strng{authornamehash}{b781679c65f00147881b0ea5d80987f4}
+      \strng{authorfullhash}{b781679c65f00147881b0ea5d80987f4}
+      \field{labelalpha}{Stu16}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781970001273}
+      \field{title}{Verified Functional Programming in Agda}
+      \field{year}{2016}
+    \endentry
+    \entry{Go}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=c7a8b02c78a1ba56daf6966ff45a56ce}{%
+           family={Westrup},
+           familyi={W\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7b588711323fc4372d26b4b335b209d0}{%
+           family={Pettersson},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b0624bccbb42804d8e4a82bb9a4118}
+      \strng{fullhash}{a4b0624bccbb42804d8e4a82bb9a4118}
+      \strng{bibnamehash}{a4b0624bccbb42804d8e4a82bb9a4118}
+      \strng{authorbibnamehash}{a4b0624bccbb42804d8e4a82bb9a4118}
+      \strng{authornamehash}{a4b0624bccbb42804d8e4a82bb9a4118}
+      \strng{authorfullhash}{a4b0624bccbb42804d8e4a82bb9a4118}
+      \field{labelalpha}{WP14}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using the Go Programming Language in Practice}
+      \field{year}{2014}
+    \endentry
+    \entry{schematicApproach}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=51e46bf0ff0947380c46702b549f9f22}{%
+           family={Zhaohui},
+           familyi={Z\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{51e46bf0ff0947380c46702b549f9f22}
+      \strng{fullhash}{51e46bf0ff0947380c46702b549f9f22}
+      \strng{bibnamehash}{51e46bf0ff0947380c46702b549f9f22}
+      \strng{authorbibnamehash}{51e46bf0ff0947380c46702b549f9f22}
+      \strng{authornamehash}{51e46bf0ff0947380c46702b549f9f22}
+      \strng{authorfullhash}{51e46bf0ff0947380c46702b549f9f22}
+      \field{labelalpha}{Zha92}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Logical Foundations of Computer Science}
+      \field{title}{A unifying theory of dependent types: the schematic approach}
+      \field{year}{1992}
+      \field{pages}{293\bibrangedash 304}
+      \range{pages}{12}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

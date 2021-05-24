@@ -1,4 +1,4 @@
-\documentclass{VUMIFPSkursinis}
+\documentclass{VUMIFPSbakalaurinis}
 \usepackage{algorithmicx}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
@@ -9,109 +9,36 @@
 \usepackage{color}
 \usepackage{float}
 \usepackage{graphicx}
-\usepackage{enumitem}
 \usepackage{listings}
 \usepackage{subfig}
-\usepackage{array}
 \usepackage{wrapfig}
-\usepackage{longtable}
-\usepackage{eurosym}
-\usepackage[hidelinks]{hyperref}
-\usepackage{todonotes}
-\usepackage[utf8]{inputenc}
 
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
-
-% \lstdefinelanguage{Agda}{%
-% language=Haskell
-% }
-
-\lstset{
-  language=Haskell,
-  aboveskip=3mm,
-  belowskip=3mm,
-  showstringspaces=false,
-	columns=flexible,
-	deletekeywords=[2]{zero, sum, tail},
-	deletekeywords={zero, sum, tail},
-  basicstyle={\small\ttfamily},
-  numbers=none,
-  numberstyle=\tiny\color{gray},
-  keywordstyle=\color{blue},
-  commentstyle=\color{dkgreen},
-  stringstyle=\color{mauve},
-  breaklines=true,
-  breakatwhitespace=true,
-	tabsize=3,
-	literate={% replace strings with symbols
-	{lambda}{{$\lambda$}}{1}
-	{araide}{{$\alpha$}}{1}
-},
-}
-
-\lstdefinelanguage{GoCust}{%
-language=Go,
-aboveskip=3mm,
-belowskip=3mm,
-showstringspaces=false,
-columns=flexible,
-basicstyle={\small\ttfamily},
-numbers=none,
-numberstyle=\tiny\color{gray},
-keywordstyle=\color{blue},
-commentstyle=\color{dkgreen},
-stringstyle=\color{mauve},
-breaklines=true,
-breakatwhitespace=true,
-tabsize=3,
-deletekeywords={append}
-}
-
-% Titulinio aprašas
 \university{Vilniaus universitetas}
-\faculty{Matematikos ir informatikos fakultetas}
-\department{}
-\papertype{Bakalauro baigiamojo darbo planas darbas}
-\title{Programavimo kalbos su priklausomais tipais transliavimas į Go programavimo kalbą}
-\titleineng{Dependently typed programming language translation to Go programming language}
-\status{4 kurso studentas}
-\author{Justas Tvarijonas}
-\supervisor{Partn. Doc. Viačeslav Pozdniakov}
+\faculty{Matematikos ir informatikos institutas}
+\department{Programų sistemų katedra}
+\papertype{Bakalauro darbas}
+\title{Gestų kalbos vienetų atpažinimas iš video srauto}
+\titleineng{Recognition of Sign language units from a video stream}
+\author{Pranciškus Ambrazas}
+\supervisor{j. asist. Linas Petkevičius}
+\reviewer{dr. Vytautas Valaitis}
 \date{Vilnius – \the\year}
 
-% Nustatymai
-% \setmainfont{Palemonas} % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
-\bibliography{bibliografija}
 \begin{document}
-
 \maketitle
-\sectionnonum{Temos aktualumas}
-Programavimas yra instrukcijų davimas kompiuteriui, kuris jas vykdo nepaisant to ar jos yra prasmingos ar ne. Kadangi žmonija tampa vis labiau priklausoma nuo kompiuterių, kurie atsiranda kiekviename mūsų gyvenimo aspekte, tampa vis svarbiau kuo labiau sumažinti klaidų kiekį programiniame kode. Tai bandoma įgyvendinti įvairiais metodais, tokiais, kaip detalus projektavimas ar testų rašymas. Pastarasis yra vienas dažniausiai naudojamų metodų, tačiau testavimas parodo ne klaidų nebuvimą, o tik tai, kad jos yra \cite{UHC}.
-\par Tipai programavimo kalbose leidžia programuotojui nurodyti numatytą programos elgseną tipų pavidalu. Tipai ne tik padeda programuotojui rašyti teisingą programą, bet taip pat, kompiuteris gali patikrinti ar sukurta programa veikia taip, kaip buvo užrašyta. Paprasčiausias pavyzdys būtų programa, kuri gavusi sąrašą skaičių, prie kiekvieno elemento prideda vienetą, šios programos tikslas yra priimti sąrašą bei sąrašą gražinti. Tai labai abstraktus apibrėžimas, ką ši programa atlieka, tačiau tai suteikia tam tikrą informaciją apie šios programos veikimą.\par
-Priklausomų tipų sistemos \cite{schematicApproach} leidžia tipams būti priklausomais nuo konkrečių reikšmių. Programavimo kalbos \cite{agda_book,idris}, kuriose yra naudojami priklausomi tipai leidžia sukurti tikslesnius tipus, kurie padeda daugiau klaidų aptikti kompiliavimo metu, vietoje to, kad tos pačios klaidos išliktų nepastebėtos iki programos veikimo pradžios. Su tipais, kurie turi daugiau informacijos mes daugiau žinome apie galimus programos parametrus bei rezultatus. Taip pat, priklausomi tipai programavimo kalbose suteikia galimybe rašyti įrodymus.
-\par Viena iš programavimo kalbų su priklausomais tipais yra Agda. Tai funkcinė programavimo kalba, kurios sintaksė yra panaši į plačiau žinomos funkcinės programavimo kalbos Haskell \cite{haskell} sintaksę. Dabartinė Agda implementacija tipų patikrinimais siekia užtikrinti, kad programos bei įrodymai būtų teisingi. Tuo tarpu Go programavimo kalba \cite{Go} yra greitai kompiliuojama, bet ne taip griežtai tipizuota, taigi atsiranda poreikis tam tikras vietas suprogramuoti su Agda programavimo kalba, verifikuoti jas Agda viduje, bei tada sugeneruoti Go kodą, kurį jau galėtų panaudoti egzituojantis Go kodas.
+\section{test}
+tes
+\printbibliography[heading=bibintoc]  % Šaltinių sąraše nurodoma panaudota
+% literatūra, kitokie šaltiniai. Abėcėlės tvarka išdėstomi darbe panaudotų
+% (cituotų, perfrazuotų ar bent paminėtų) mokslo leidinių, kitokių publikacijų
+% bibliografiniai aprašai. Šaltinių sąrašas spausdinamas iš naujo puslapio.
+% Aprašai pateikiami netransliteruoti. Šaltinių sąraše negali būti tokių
+% šaltinių, kurie nebuvo paminėti tekste. Šaltinių sąraše rekomenduojame
+% necituoti savo kursinio darbo, nes tai nėra oficialus literatūros šaltinis.
+% Jei tokių nuorodų reikia, pateikti jas tekste.
 
-\sectionnonum{Tikslas, uždaviniai bei laukiami rezultatai}
-\subsectionnonum{Tikslas}
-Realizuoti Agda kalbos transliatorių į Go programavimo kalbą
-\subsectionnonum{Uždaviniai}
-\begin{enumerate}
-\item Sukurti Agda kalbos transliatorių į Go programavimo kalbą
-\item Verifikuoti įgyvendintą Agda kalbos transliatorių
-\item Identifikuoti įgyvendinto transliatoriaus trūkumus 
-\end{enumerate}
-\subsectionnonum{Laukiami rezultatai}
-\begin{enumerate}
-\item Aprašyta Go poaibė į kurią yra transliuojamas Agda kodas
-\item Sukurtas Agda kalbos transliatorius į Go programavimo kalbą
-\item Sukurtas Agda kalbos transliatorius yra verifikuotas
-\item Identifikuoti ir aprašyti įgyvendinto transliatoriaus trūkumai
-\item Nustatyta sėkmingai kompiliuojama Agda standartinės bibliotekos dalis
-\end{enumerate}
-\nocite{*}
-\printbibliography[heading=bibintoc]
+\appendix
 
-
+\section{testS}
+test
 \end{document}
