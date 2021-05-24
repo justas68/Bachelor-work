@@ -1,7 +1,7 @@
-%% VUMIFPSkursinis.cls – „Tik svajotojai-romantikai gali pagerinti nepakeičiamą pasaulį“
+%% VUMIFPSbakalaurinis.cls – „Tik svajotojai-romantikai gali pagerinti nepakeičiamą pasaulį“
 %% Created by   „Atviras Kodas Lietuvai“  2015
 %
-%% Latest version available here: https://github.com/LIKS/course_work_template_vu_mif_se
+%% Latest version available here: https://github.com/LIKS/bachelor_thesis_template_vu_mif_se
 %% Any suggestions or contributions are welcome!  Also see: http://latex.liks.lt!
 %
 %%  License CC BY 4.0 (see more at http://creativecommons.org/licenses/by/4.0/) 
@@ -11,10 +11,10 @@
 % link to the license, and indicate if changes were made.)
 
 
-% Kursinio darbo apiforminimas pagal Vilniaus universiteto
+% Bakalaruo baigiamojo darbo apiforminimas pagal Vilniaus universiteto
 % Matematikos ir informatikos fakulteto Programų sistemų katedros reikalavimus
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{VUMIFPSkursinis}[2015/02/03 1.0 VU MIF SE course work class]
+\ProvidesClass{VUMIFPSbakalaurinis}[2015/02/03 1.0 VU MIF SE bachelor thesis class]
 \LoadClass[12pt, a4paper]{article}
 \RequirePackage{LTPlius}  % Nustatymų sulietuvinimas
 \RequirePackage{fontspec} % Šrifto pasirinkimui
@@ -64,6 +64,7 @@
 \newcommand{\faculty}[1]{\def\@faculty{#1}}
 \newcommand{\papertype}[1]{\def\@papertype{#1}}
 \newcommand{\department}[1]{\def\@department{#1}}
+\newcommand{\institute}[1]{\def\@institute{#1}}
 \newcommand{\supervisor}[1]{\def\@supervisor{#1}}
 \newcommand{\reviewer}[1]{\def\@reviewer{#1}}
 \newcommand{\status}[1]{\def\@status{#1}}
@@ -87,7 +88,6 @@
     minnames=4,
 ]{biblatex}
 \RequirePackage[style=lithuanian]{csquotes}
-
 % Pliuso ženklas, kuris rodomas esant >3 autoriams, sumažinamas ir pakeliamas
 \renewcommand*{\labelalphaothers}{\textsuperscript{+}}
 
@@ -115,7 +115,10 @@
    ~
   \begin{center}
       {\setstretch{1.3}\large \MakeUppercase{\@university} \\
-          \MakeUppercase{\@faculty} \\
+         \MakeUppercase{\@faculty} \\
+         \ifdefined\@institute
+             \MakeUppercase{\@institute} \\
+         \fi
          \MakeUppercase{\@department}\par }
 
      \null\vfil
@@ -131,10 +134,9 @@
         \large
         \singlespacing
         {\begin{tabular}[t]{l l}%
-        \medskip Atliko: &\; \@status \\
-        \medskip\bigskip   &\; \@author \hfill \@signatureplace \\
+        \bigskip Atliko: &\; \@author \hfill \@signatureplace \\
         \bigskip Darbo vadovas: &\; \@supervisor \hfill  \@signatureplace \\
-        Recenzentas: &\; \@reviewer \hfill \@signatureplace
+        Darbo recenzentas: &\; \@reviewer \hfill \@signatureplace
         \end{tabular} \par}%
      \end{flushright}
      \vskip 4cm
@@ -144,18 +146,17 @@
         \large
         \singlespacing
         {\begin{tabular}[t]{l l}%
-        \medskip Atliko: &\; \@status \\
-        \bigskip   &\; \@author \hfill \@signatureplace \\
-        \medskip\bigskip &\; \@secondauthor \hfill \@signatureplace \\
+        \bigskip Atliko: &\; \@author \hfill \@signatureplace \\
+        \bigskip &\; \@secondauthor \hfill \@signatureplace \\
         \bigskip Darbo vadovas: &\; \@supervisor \hfill  \@signatureplace \\
-        Recenzentas: &\; \@reviewer \hfill \@signatureplace
+        Darbo recenzentas: &\; \@reviewer \hfill \@signatureplace
         \end{tabular} \par}%
      \end{flushright}
      \vskip 3.8cm
    }
 
   \begin{center}
-    {\singlespacing \@date \par}%   
+    {\large \singlespacing \@date \par}%   
   \end{center}\par
   \@thanks
   \vfil\null
@@ -172,6 +173,7 @@
   \global\let\@university\@empty
   \global\let\@faculty\@empty
   \global\let\@department\@empty
+  \global\let\@institute\@empty
   \global\let\@papertype\@empty
   \global\let\@supervisor\@empty
   \global\let\@reviewer\@empty
@@ -193,9 +195,7 @@
     \section*{#1}%
     \addcontentsline{toc}{section}{#1}% 
 }
-\newcommand{\subsectionnonum}[1]{%
-    \subsection*{#1}%
-}
+
 % Skyriaus pavadinimas, neturintis numerio bei neįeinantis į turinį
 \newcommand{\sectionnonumnocontent}[1]{%
     \section*{#1}%   Sugadina pirmojo šio tipo skyriaus numeravimą puslapiais
@@ -203,8 +203,6 @@
 
 \renewcommand\tableofcontents{%
     % Turinys su viengubu intervalu tarp eilučių
-    \pagenumbering{gobble}
-    \pagestyle{empty}
     \begin{singlespacing}%
         \section*{\bf\normalsize\centering\MakeUppercase\contentsname
         \@mkboth{%
@@ -212,8 +210,6 @@
     \@starttoc{toc}%
     \end{singlespacing}%
     \newpage%
-    \pagestyle{fancy}
-    \pagenumbering{arabic}
     }
 
 % Tarpai tarp taškų turinyje
@@ -260,7 +256,7 @@
     \setcounter{section}{0}%
     \renewcommand{\thesection}{nr. \arabic{section}}%
     % Insert record to TOC 
-    \addcontentsline{toc}{section}{\texorpdfstring\MakeUppercase{Priedai}}%}
+    \addcontentsline{toc}{section}{\MakeUppercase{Priedai}}%}
 }
 
 \def\@Appendix[#1]#2{%
@@ -278,6 +274,10 @@
      \centering#1\par}% \nohyphens\centering#1\par}%
     \vspace{\baselineskip}%
     \footnotesize
+}
+
+\newcommand{\subsectionnonum}[1]{%
+    \subsection*{#1}%
 }
 
 % Literatūros sąrašą reikia pervadinti
@@ -321,3 +321,7 @@
 % Tarpai tarp išnašų eilučių nustatomi į 1.5 eilutės
 \let\oldfootnote\footnote
 \renewcommand{\footnote}[1]{\oldfootnote{\onehalfspacing #1}}
+
+% Panaikinami dvigubi tarpai tarp sąrašo elementų
+\RequirePackage{enumitem}
+\setlist{nosep}

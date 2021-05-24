@@ -4,108 +4,108 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Santrauka}{1}{section*.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Summary}{}{section*.2}% 
+\contentsline {section}{Summary}{2}{section*.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Įvadas}{1}{section*.4}% 
+\contentsline {section}{Įvadas}{5}{section*.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Priklausomi tipai}{2}{section.1}% 
+\contentsline {section}{\numberline {1.}Priklausomi tipai}{6}{section.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.}Programavimo kalbos su priklausomais tipais}{2}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.1.}Programavimo kalbos su priklausomais tipais}{6}{subsection.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1.}Idris}{2}{subsubsection.1.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.1.}Idris}{6}{subsubsection.1.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2.}Agda}{2}{subsubsection.1.1.2}% 
+\contentsline {subsubsection}{\numberline {1.1.2.}Agda}{6}{subsubsection.1.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Agda programavimo kalba}{3}{section.2}% 
+\contentsline {section}{\numberline {2.}Agda programavimo kalba}{7}{section.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Loginė sistema}{3}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.1.}Loginė sistema}{7}{subsection.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Sintaksė}{3}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.2.}Sintaksė}{7}{subsection.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Numanomi argumentai}{4}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.3.}Numanomi argumentai}{7}{subsection.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.}Duomenų tipai}{4}{subsection.2.4}% 
+\contentsline {subsection}{\numberline {2.4.}Duomenų tipai}{8}{subsection.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.}Verifikavimas}{5}{subsection.2.5}% 
+\contentsline {subsection}{\numberline {2.5.}Verifikavimas}{9}{subsection.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Go programavimo kalba}{6}{section.3}% 
+\contentsline {section}{\numberline {3.}Go programavimo kalba}{10}{section.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Sintaksė}{6}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.1.}Sintaksė}{10}{subsection.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Valdymo srauto konstruktai}{6}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.2.}Valdymo srauto konstruktai}{10}{subsection.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Struktūros}{7}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.3.}Struktūros}{11}{subsection.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.}Sąsajos}{7}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {3.4.}Sąsajos}{11}{subsection.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.}Funkcijos}{7}{subsection.3.5}% 
+\contentsline {subsection}{\numberline {3.5.}Funkcijos}{11}{subsection.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.}Bendrinių tipų pasiūlymas}{8}{subsection.3.6}% 
+\contentsline {subsection}{\numberline {3.6.}Bendrinių tipų pasiūlymas}{12}{subsection.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.}Paketų importavimas}{9}{subsection.3.7}% 
+\contentsline {subsection}{\numberline {3.7.}Paketų importavimas}{13}{subsection.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Susiję darbai}{10}{section.4}% 
+\contentsline {section}{\numberline {4.}Susiję darbai}{14}{section.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Haskell programavimo kalbos transliatoriai}{10}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.1.}Haskell programavimo kalbos transliatoriai}{14}{subsection.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1.}MAlonzo transliatorius}{10}{subsubsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1.}MAlonzo transliatorius}{14}{subsubsection.4.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2.}Utrecht transliatorius}{10}{subsubsection.4.1.2}% 
+\contentsline {subsubsection}{\numberline {4.1.2.}Utrecht transliatorius}{14}{subsubsection.4.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Javascript programavimo kalbos transliatorius}{10}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.2.}Javascript programavimo kalbos transliatorius}{14}{subsection.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.}Epic programavimo kalbos transliatorius}{11}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.3.}Epic programavimo kalbos transliatorius}{15}{subsection.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Agda transliavimas į Go}{12}{section.5}% 
+\contentsline {section}{\numberline {5.}Agda transliavimas į Go}{16}{section.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.}Egzituojančių transliatorių panašumai}{12}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.1.}Egzituojančių transliatorių panašumai}{16}{subsection.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.}Agda programavimo kalbos tarpinė reprezentacija}{12}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.2.}Agda programavimo kalbos tarpinė reprezentacija}{16}{subsection.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.}Agda Duomenų tipų konvertavimas į Go}{14}{subsection.5.3}% 
+\contentsline {subsection}{\numberline {5.3.}Agda Duomenų tipų konvertavimas į Go}{18}{subsection.5.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.}Agda funkcijų konvertavimas į Go}{15}{subsection.5.4}% 
+\contentsline {subsection}{\numberline {5.4.}Agda funkcijų konvertavimas į Go}{19}{subsection.5.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.1.}Vidinė Go sintaksės reprezentacija}{15}{subsubsection.5.4.1}% 
+\contentsline {subsubsection}{\numberline {5.4.1.}Vidinė Go sintaksės reprezentacija}{19}{subsubsection.5.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.2.}Paprastos funkcijos konvertavimas}{17}{subsubsection.5.4.2}% 
+\contentsline {subsubsection}{\numberline {5.4.2.}Paprastos funkcijos konvertavimas}{20}{subsubsection.5.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.3.}Standartiniai tipai}{18}{subsubsection.5.4.3}% 
+\contentsline {subsubsection}{\numberline {5.4.3.}Standartiniai tipai}{22}{subsubsection.5.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.4.}Bendrinių tipų konvertavimas}{19}{subsubsection.5.4.4}% 
+\contentsline {subsubsection}{\numberline {5.4.4.}Bendrinių tipų konvertavimas}{23}{subsubsection.5.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.4.5.}Raktinio žodžio „return“ pridėjimas}{20}{subsubsection.5.4.5}% 
+\contentsline {subsubsection}{\numberline {5.4.5.}Raktinio žodžio „return“ pridėjimas}{24}{subsubsection.5.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.}Įrodymai}{20}{subsection.5.5}% 
+\contentsline {subsection}{\numberline {5.5.}Įrodymai}{24}{subsection.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.}Visų kintamųjų bei importuotų bibliotekų panaudojimas}{21}{subsection.5.6}% 
+\contentsline {subsection}{\numberline {5.6.}Visų kintamųjų bei importuotų bibliotekų panaudojimas}{24}{subsection.5.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.7.}Simbolių užkodavimas verčiant į Go}{21}{subsection.5.7}% 
+\contentsline {subsection}{\numberline {5.7.}Simbolių užkodavimas verčiant į Go}{25}{subsection.5.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}Našumo testai}{22}{section.6}% 
+\contentsline {section}{\numberline {6.}Našumo testai}{26}{section.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.}Faktorialo funkcija}{22}{subsection.6.1}% 
+\contentsline {subsection}{\numberline {6.1.}Faktorialo funkcija}{26}{subsection.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.}Pirminių skaičių kiekio radimo funkcija}{22}{subsection.6.2}% 
+\contentsline {subsection}{\numberline {6.2.}Pirminių skaičių kiekio radimo funkcija}{26}{subsection.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.}Burbulo rikiavimo funkcija}{23}{subsection.6.3}% 
+\contentsline {subsection}{\numberline {6.3.}Burbulo rikiavimo funkcija}{27}{subsection.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.}Verifikavimas bei transliatoriaus trūkumai}{25}{section.7}% 
+\contentsline {section}{\numberline {7.}Verifikavimas}{29}{section.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.}Verifikavimas}{25}{subsection.7.1}% 
+\contentsline {section}{\numberline {8.}Nustatyti trūkumai ir ateities darbai}{31}{section.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.}Trūkumai}{26}{subsection.7.2}% 
+\contentsline {subsection}{\numberline {8.1.}Trūkumai}{31}{subsection.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Ateities darbai}{27}{section*.17}% 
+\contentsline {subsection}{\numberline {8.2.}Ateities darbai}{31}{subsection.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{28}{section*.18}% 
+\contentsline {section}{Rezultatai ir išvados}{32}{section*.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatūra}{29}{section*.21}% 
+\contentsline {section}{\MakeUppercase {Priedai}}{32}{Item.19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{1 priedas. Agda kodas paverstas į kitas kalbas}{30}{section*.22}% 
+\contentsline {subsection}{1 priedas.\nobreakspace {}1 priedas. Agda kodas paverstas į kitas kalbas}{33}{appendix.A}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{2 priedas. Agda faktorialo funkcija paversta į kitas kalbas}{31}{section*.23}% 
+\contentsline {subsection}{2 priedas.\nobreakspace {}2 priedas. Agda faktorialo funkcija paversta į kitas kalbas}{34}{appendix.B}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{3 priedas. Agda pirminių skaičiaus kieko radimo funkcija paversta į kitas kalbas}{32}{section*.24}% 
+\contentsline {subsection}{3 priedas.\nobreakspace {}3 priedas. Agda pirminių skaičiaus kieko radimo funkcija paversta į kitas kalbas}{35}{appendix.C}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{4 priedas. Agda rikiavimo funkcija paversta į kitas kalbas}{36}{section*.25}% 
+\contentsline {subsection}{4 priedas.\nobreakspace {}4 priedas. Agda rikiavimo funkcija paversta į kitas kalbas}{39}{appendix.D}% 
